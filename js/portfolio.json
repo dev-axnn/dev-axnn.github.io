@@ -1,0 +1,242 @@
+[
+  {
+    "title": "대구 근대골목 단팥빵 클론코딩",
+    "image": "mockup-daegubbang.png",
+    "day": "12",
+    "originlink": "https://daegubbang.co.kr/",
+    "pc": true,
+    "mb": true,
+    "figma": false,
+    "desc": "",
+
+    "web": true,
+    "weblink": "https://dev-axnn.github.io/daegubbang/",
+    "webgit": "https://github.com/dev-axnn/daegubbang.git",
+
+    "vue": false,
+    "vuelink": "#",
+    "vuegit": "#",
+
+    "api" : false
+  },
+  {
+    "title": "더피커 클론코딩",
+    "image": "mockup-thepicker.png",
+    "day": "14",
+    "originlink": "https://thepicker.net/",
+    "pc": true,
+    "mb": true,
+    "figma": false,
+    "desc": "",
+
+    "web": true,
+    "weblink": "https://dev-axnn.github.io/thepicker/",
+    "webgit": "https://github.com/dev-axnn/thepicker.git",
+
+    "vue": false,
+    "vuelink": "#",
+    "vuegit": "#",
+
+    "api" : false
+  },
+  {
+    "title": "정육각 클론코딩",
+    "image": "mockup-jungyookgak.png",
+    "day": "12",
+    "originlink": "https://www.jeongyookgak.com/",
+    "pc": true,
+    "mb": true,
+    "figma": false,
+    "desc": "",
+
+    "web": true,
+    "weblink": "https://dev-axnn.github.io/jeongyookgak/",
+    "webgit": "https://github.com/dev-axnn/jeongyookgak.git",
+
+    "vue": true,
+    "vuelink": "#",
+    "vuegit": "https://github.com/dev-axnn/vue-jeongyookgak.git",
+
+    "api" : false
+  },
+  {
+    "title": "카페 바라보다 클론코딩",
+    "image": "mockup-baraboda.png",
+    "day": "11",
+    "originlink": "http://baraboda.com/",
+    "pc": true,
+    "mb": true,
+    "figma": false,
+    "desc": "",
+
+    "web": true,
+    "weblink": "https://dev-axnn.github.io/baraboda/",
+    "webgit": "https://github.com/dev-axnn/baraboda.git",
+
+    "vue": false,
+    "vuelink": "#",
+    "vuegit": "#",
+
+    "api" : false
+  },
+  {
+    "title": "K-water 클론코딩",
+    "image": "mockup-kwater.png",
+    "day": "23",
+    "originlink": "https://www.kwater.or.kr/",
+    "pc": true,
+    "mb": true,
+    "figma": false,
+    "desc": "",
+
+    "web": true,
+    "weblink": "https://dev-axnn.github.io/kwater/",
+    "webgit": "https://github.com/dev-axnn/kwater.git",
+
+    "vue": false,
+    "vuelink": "#",
+    "vuegit": "#",
+
+    "api" : false
+  },
+  {
+    "title": "거제청년센터 이룸 클론코딩",
+    "image": "mockup-geojeyouth.png",
+    "day": "21",
+    "originlink": "https://daegubbang.co.kr/",
+    "pc": true,
+    "mb": true,
+    "figma": false,
+    "desc": "",
+
+    "web": true,
+    "weblink": "https://dev-axnn.github.io/geojeyouth/",
+    "webgit": "https://github.com/dev-axnn/geojeyouth.git",
+
+    "vue": true,
+    "vuelink": "https://dev-axnn.github.io/build-geoje/",
+    "vuegit": "https://github.com/dev-axnn/vue-geoje.git",
+
+    "api" : false
+  },
+  {
+    "title": "마시그래이 클론코딩",
+    "image": "mockup-masigray.png",
+    "day": "15",
+    "originlink": "https://www.masigray.com/",
+    "pc": true,
+    "mb": true,
+    "figma": false,
+    "desc": "",
+
+    "web": true,
+    "weblink": "https://dev-axnn.github.io/masigray/",
+    "webgit": "https://github.com/dev-axnn/masigray.git",
+
+    "vue": true,
+    "vuelink": "https://dev-axnn.github.io/build-masigray/",
+    "vuegit": "https://github.com/dev-axnn/vue-masigray.git",
+
+    "api" : false
+  },
+  {
+    "title": "노엘로힐스 클론코딩",
+    "image": "mockup-noelo.png",
+    "day": "12",
+    "originlink": "https://noelohills.com/",
+    "pc": true,
+    "mb": true,
+    "figma": false,
+    "desc": "",
+
+    "web": true,
+    "weblink": "https://dev-axnn.github.io/noelohills/",
+    "webgit": "https://github.com/dev-axnn/noelohills.git",
+
+    "vue": true,
+    "vuelink": "https://dev-axnn.github.io/build-noelohills/",
+    "vuegit": "https://github.com/dev-axnn/vue-noelohills.git",
+
+    "api" : false
+  },
+  {
+    "title": "STX건설",
+    "image": "mockup-stx.png",
+    "day": "9",
+    "originlink": "http://www.stxconst.co.kr/",
+    "pc": true,
+    "mb": false,
+    "figma": false,
+    "desc": "",
+
+    "web": true,
+    "weblink": "https://dev-axnn.github.io/stxconst/",
+    "webgit": "https://github.com/dev-axnn/stxconst.git",
+
+    "vue": true,
+    "vuelink": "https://dev-axnn.github.io/build-stx/",
+    "vuegit": "https://github.com/dev-axnn/vue-stx.git",
+
+    "api" : false
+  },
+  {
+    "title": "Ghibli Open API를 이용한 어플",
+    "image": "mockup-ghibli.png",
+    "day": "8",
+    "originlink": "#",
+    "pc": true,
+    "mb": false,
+    "figma": false,
+    "desc": "",
+
+    "web": true,
+    "weblink": "https://dev-axnn.github.io/build-ghibli/",
+    "webgit": "https://github.com/dev-axnn/vue-ghibli.git",
+
+    "vue": true,
+    "vuelink": "https://dev-axnn.github.io/build-ghibli/",
+    "vuegit": "https://github.com/dev-axnn/vue-ghibli.git",
+
+    "api" : true
+  },
+  {
+    "title": "🎨 모바일 다이어리 어플 기획안",
+    "image": "mockup-figma-diary.png",
+    "day": "4",
+    "originlink": "#",
+    "pc": false,
+    "mb": false,
+    "figma": true,
+    "desc": "일상과 일정을 기록하고 목표 달성을 위한 동기부여를 책임지는 개인 다이어리 어플을 기획했습니다.",
+
+    "web": false,
+    "weblink": "https://www.figma.com/file/1jEajHJXYIbgTupietW88i/Ahn-Diary?node-id=0%3A1",
+    "webgit": "#",
+
+    "vue": false,
+    "vuelink": "#",
+    "vuegit": "#",
+
+    "api" : false
+  },
+  {
+    "title": "🎨 포트폴리오 웹사이트 기획안",
+    "image": "mockup-figma-port.png",
+    "day": "19",
+    "originlink": "#",
+    "pc": false,
+    "mb": false,
+    "figma": true,
+    "desc": "기술과 경력, 취미 등 제가 걸어온 수년간의 발자취를 모두 모아 누가 보아도 근사한 포트폴리오를 목표로 했습니다.",
+
+    "web": false,
+    "weblink": "https://www.figma.com/file/WQhJTjUYn066RS90IZz6h0/Ahn-portfolio?node-id=0%3A1",
+    "webgit": "#",
+
+    "vue": false,
+    "vuelink": "#",
+    "vuegit": "#",
+
+    "api" : false
+  }
+] 
