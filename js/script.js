@@ -1,13 +1,37 @@
-$(document).ready(function () {
+window.onload = function () {
   AOS.init();
 
-  // $('.counter').counterUp({
-  //   delay: 10,
-  //   time: 1000
-  // });
-});
+  // 모바일 버튼 활성화
+  let menuBtn = $(".mbmenu-btn");
+  let menuWrap = $(".mbmenu-wrap");
+  menuBtn.click(function () {
+    let result = menuBtn.hasClass("mbmenu-btn-close");
+    if (result) {
+      menuBtn.removeClass("mbmenu-btn-close");
+      menuWrap.hide();
+    } else {
+      menuBtn.addClass("mbmenu-btn-close");
+      menuWrap.show();
+    }
+  });
 
-window.onload = function () {
+  // 반응형 처리
+  $(window).resize(function () {
+    // 화면의 너비
+    let temp = $(window).width();
+    if (temp > 1200) {
+      menuWrap.hide();
+      menuBtn.removeClass("mbmenu-btn-close");
+    }
+  });
+
+  // 모바일 메뉴 바깥 부분 클릭시 닫기
+  menuWrap.click(function () {
+    menuBtn.removeClass("mbmenu-btn-close");
+    menuBtn.addClass("mbmenu-btn-open");
+    menuWrap.hide();
+  });
+
   let gnbMenuA = $(".gnb > li > a");
   let sectionArr = $(".wrap > section");
 
