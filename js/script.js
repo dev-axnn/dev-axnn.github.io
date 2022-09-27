@@ -94,6 +94,12 @@ window.onload = function () {
     });
   });
 
+  let portfolioMbMenu = $(".portfolio-mb-menu");
+  portfolioMbMenu.change(function () {
+    let v = $(this).val();
+    showSlide(v);
+  });
+
   // 포트폴리오 데이터 호출
   let allPortfolioData = [];
   let portSw = $(".port-sw");
@@ -346,7 +352,44 @@ window.onload = function () {
     });
   }
 
-  let deSlide = new Swiper(".design-sw", {
+  let designMenuA = $(".design-menu a");
+  designMenuA.eq(0).addClass("design-menu-active");
+  $.each(designMenuA, function (index, item) {
+    $(this).click(function (event) {
+      event.preventDefault();
+      designMenuA.removeClass("design-menu-active");
+      $(this).addClass("design-menu-active");
+      if (index == 0) {
+        // 해당 슬라이드 번호로 이동
+        // loop 라서 1번으로 처리
+        designSw.slideTo(1);
+      } else if (index == 1) {
+        designSw.slideTo(2);
+      } else if (index == 2) {
+        designSw.slideTo(5);
+      } else if (index == 3) {
+        designSw.slideTo(8);
+      }
+    });
+  });
+
+  let designMbMenu = $(".design-mb-menu");
+  designMbMenu.change(function () {
+    let v = $(this).val();
+    if (v == "branding") {
+      // 해당 슬라이드 번호로 이동
+      // loop 라서 1번으로 처리
+      designSw.slideTo(1);
+    } else if (v == "symbol") {
+      designSw.slideTo(2);
+    } else if (v == "edit") {
+      designSw.slideTo(5);
+    } else if (v == "drawing") {
+      designSw.slideTo(8);
+    }
+  });
+
+  let designSw = new Swiper(".design-sw", {
     loop: true,
     pagination: {
       el: ".design-pagination",
@@ -358,51 +401,20 @@ window.onload = function () {
     },
   });
 
-  function dPaginaiton(_slide) {
-    deSlide.slideTo(_slide, 1000, false);
-  }
-
-  // 디자인 메뉴 (수정해야함 포커스 유지가 안 돼요)
-  let branding = $(".branding");
-  let symbol = $(".symbol");
-  let edit = $(".edit");
-  let drawing = $(".drawing");
-
-  branding.click(function () {
-    dPaginaiton(1);
-  });
-
-  symbol.click(function () {
-    dPaginaiton(2);
-  });
-
-  edit.click(function () {
-    dPaginaiton(4);
-  });
-
-  drawing.click(function () {
-    dPaginaiton(6);
-  });
-  // $.each(designMenuA, function (index, item) {
-  //   $(this).click(function (event) {
-  //     event.preventDefault();
-  //     designMenuA.removeClass('design-menu-active')
-  //     $(this).addClass('design-menu-active');
-  //     let tempData = $(this).attr('data-cate');
-  //     showSlide(tempData);
-  //   });
-  // });
-
-  new Swiper(".design-sw", {
-    loop: true,
-    pagination: {
-      el: ".design-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".design-btn-next",
-      prevEl: ".design-btn-prev",
-    },
+  designSw.on("activeIndexChange", function () {
+    console.log(designSw.realIndex);
+    designMenuA.removeClass("design-menu-active");
+    // designSw의 realIndex가 해당 페이지로 이동할때
+    // design menu 의 li에 포커싱 시키기
+    if (designSw.realIndex == 0) {
+      designMenuA.eq(0).addClass("design-menu-active");
+    } else if (designSw.realIndex >= 1 && designSw.realIndex < 4) {
+      designMenuA.eq(1).addClass("design-menu-active");
+    } else if (designSw.realIndex >= 4 && designSw.realIndex < 7) {
+      designMenuA.eq(2).addClass("design-menu-active");
+    } else if (designSw.realIndex == 7) {
+      designMenuA.eq(3).addClass("design-menu-active");
+    }
   });
 
   function makeCircle(_id, _color, _point) {

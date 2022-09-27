@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: none;
 }
 
 ul,
@@ -586,6 +587,7 @@ body {
 }
 
 .portfolio-mb-menu {
+  width: 100%;
   border: none;
   height: 50px;
   font-size: 18px;
@@ -888,6 +890,7 @@ body {
 }
 
 .design-mb-menu {
+  width: 100%;
   border: none;
   height: 50px;
   font-size: 18px;
