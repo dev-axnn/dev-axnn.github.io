@@ -267,7 +267,7 @@
                     당산나무가 될 것 입니다.
                   </b>
                 </p>
-                <p class="myprofile-intro-txt">
+                <p class="myprofile-intro-txt res-hidden">
                   수학처럼 답이 정해져 있지 않다는 점에서 코딩은 처음이 많이
                   답답하고 익숙해지기 힘들지만 머리 싸매며 짜낸 코딩이 구현에
                   성공하게 되면 그 뿌듯함은 이루 말할 것도 없거니와, 말 그대로
@@ -317,17 +317,20 @@
           >
             <ul class="portfolio-menu clearfix">
               <li>
-                <a
-                  href="#port-web"
-                  class="portfolio-menu-active"
-                  data-cate="all"
+                <a class="portfolio-menu-active" data-cate="all"
                   >All Fublishing</a
                 >
               </li>
-              <li><a href="#port-res" data-cate="mobile">Responsive Web</a></li>
-              <li><a href="#port-vue" data-cate="vue">Vue.js</a></li>
-              <li><a href="#port-figma" data-cate="figma">Figma</a></li>
+              <li><a data-cate="mobile">Responsive Web</a></li>
+              <li><a data-cate="vue">Vue.js</a></li>
+              <li><a data-cate="figma">Figma</a></li>
             </ul>
+            <select name="portfolio-mb-menu" class="portfolio-mb-menu">
+              <option value="all">All Fublishing</option>
+              <option value="mobile">Responsive Web</option>
+              <option value="vue">Vue.js</option>
+              <option value="figma">Figma</option>
+            </select>
           </div>
           <div
             class="swiper port-sw"
@@ -368,11 +371,17 @@
             data-aos-duration="1000"
           >
             <ul class="design-menu clearfix">
-              <li><a href="#design-branding" class="branding">Branding</a></li>
-              <li><a href="#design-symbol" class="symbol">Symbol Design</a></li>
-              <li><a href="#design-edit" class="edit">Editorial Design</a></li>
-              <li><a href="#design-draw" class="drawing">Drawing</a></li>
+              <li><a class="branding">Branding</a></li>
+              <li><a class="symbol">Symbol Design</a></li>
+              <li><a class="edit">Editorial Design</a></li>
+              <li><a class="drawing">Drawing</a></li>
             </ul>
+            <select name="design-mb-menu" class="design-mb-menu">
+              <option value="branding">Branding</option>
+              <option value="symbol">Symbol Design</option>
+              <option value="edit">Editorial Design</option>
+              <option value="drawing">Drawing</option>
+            </select>
           </div>
           <div
             class="swiper design-sw"

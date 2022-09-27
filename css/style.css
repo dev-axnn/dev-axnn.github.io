@@ -568,6 +568,7 @@ body {
 .portfolio-menu li {
   float: left;
   margin-right: 50px;
+  cursor: pointer;
 }
 
 .portfolio-menu li:last-child {
@@ -582,6 +583,27 @@ body {
 
 .portfolio-menu-active {
   color: #242a53 !important;
+}
+
+.portfolio-mb-menu {
+  border: none;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 50px;
+  color: #838c9d;
+  background: #eee;
+  display: none;
+}
+
+.portfolio-mb-menu option {
+  border: none;
+  padding: 5px 0;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: "Noto Sans", sans-serif;
+  color: #838c9d;
 }
 
 .port-sw {
@@ -605,8 +627,8 @@ body {
 .port-link {
   position: absolute;
   left: 50%;
-  top: 165px;
-  transform: translateX(-50%);
+  top: 35%;
+  transform: translate(-50%, -50%);
   display: block;
   width: 0px;
   height: 0px;
@@ -636,12 +658,18 @@ body {
 }
 
 .port-cate-item:hover .port-link {
-  top: 130px;
+  top: 35%;
   width: 70px;
   height: 70px;
 }
 
 .port-cate-item h5 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
   font-size: 19px;
   font-weight: 600;
   margin-left: 5px;
@@ -739,12 +767,18 @@ body {
 }
 
 .figma-item:hover .port-link {
-  top: 130px;
+  top: 35%;
   width: 70px;
   height: 70px;
 }
 
 .figma-item h5 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
   font-size: 19px;
   font-weight: 600;
   margin-left: 5px;
@@ -784,7 +818,7 @@ body {
 .port-btn-prev {
   position: absolute;
   left: 0;
-  bottom: 38%;
+  bottom: 35%;
   cursor: pointer;
   opacity: 0.3;
 }
@@ -792,7 +826,7 @@ body {
 .port-btn-next {
   position: absolute;
   right: 0;
-  bottom: 38%;
+  bottom: 35%;
   cursor: pointer;
   opacity: 0.3;
 }
@@ -853,6 +887,27 @@ body {
   color: #242a53 !important;
 }
 
+.design-mb-menu {
+  border: none;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 50px;
+  color: #838c9d;
+  background: #eee;
+  display: none;
+}
+
+.design-mb-menu option {
+  border: none;
+  padding: 5px 0;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: "Noto Sans", sans-serif;
+  color: #838c9d;
+}
+
 .design-sw {
   width: 1100px;
   margin: 60px auto;
@@ -906,6 +961,7 @@ body {
 
 /* ==== design-symbol ==== */
 .symbol-desc {
+  position: relative;
   width: 600px;
   margin-right: 90px;
   float: left;
@@ -936,6 +992,16 @@ body {
   margin-right: 10px;
 }
 
+.mock-up-kimslong {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 410px;
+  height: 490px;
+  display: block;
+  background: url("../images/symbol-mockup-kimslong-1.png") no-repeat center;
+  background-size: cover;
+}
 .symbol-mockup img:first-child {
   margin-bottom: 30px;
 }

@@ -141,6 +141,7 @@ window.onload = function () {
               <a href="${
                 item.originlink
               }" target="_blank" class="port-btn-reqular" style="color: #fff; background: #242A53;">Origin</a>
+              <br/>
               <a href="${item.vuelink}" target="_blank" class="port-btn-vue" ${
             item.vue
               ? 'style="color: #444; background: #eee;"'
@@ -186,6 +187,7 @@ window.onload = function () {
           <a href="${
             item.originlink
           }" target="_blank" class="port-btn-reqular" style="color: #fff; background: #242A53;">Origin</a>
+          <br/>
           <a href="${item.vuelink}" target="_blank" class="port-btn-vue" ${
             item.vue
               ? 'style="color: #444; background: #eee;"'
@@ -249,6 +251,7 @@ window.onload = function () {
             <a href="${
               item.originlink
             }" target="_blank" class="port-btn-reqular" style="color: #fff; background: #242A53;">Origin</a>
+            <br/>
             <a href="${item.vuelink}" target="_blank" class="port-btn-vue" ${
             item.vue
               ? 'style="color: #444; background: #eee;"'
@@ -296,6 +299,49 @@ window.onload = function () {
       navigation: {
         nextEl: ".port-btn-next",
         prevEl: ".port-btn-prev",
+      },
+
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+          spaceBetween: 15,
+          slidesPerGroup: 1,
+        },
+
+        // 750보다 클 경우
+        751: {
+          slidesPerView: 2,
+          spaceBetween: 15,
+          slidesPerGroup: 2,
+        },
+
+        // 1000보다 클 경우
+        1001: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+          slidesPerGroup: 2,
+        },
+
+        // 1200보다 클 경우
+        1201: {
+          slidesPerView: 2,
+          spaceBetween: 60,
+          slidesPerGroup: 2,
+        },
+
+        // 1300보다 클 경우
+        1301: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+          slidesPerGroup: 3,
+        },
+
+        // 1400보다 클 경우
+        1401: {
+          slidesPerView: 3,
+          spaceBetween: 45,
+          slidesPerGroup: 3,
+        },
       },
     });
   }

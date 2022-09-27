@@ -2,6 +2,10 @@
   .inner {
     margin: 0 50px;
   }
+
+  .section-bar {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -353,8 +357,14 @@
     width: 80%;
   }
 
+  .myprofile .res-hidden {
+    display: none;
+  }
+
   .myprofile-img {
-    margin-top: 50px;
+    height: 200px;
+    margin-top: 40px;
+    margin-bottom: 30px;
   }
 
   .myprofile-intro {
@@ -394,6 +404,10 @@
   .myprofile {
     width: 90%;
   }
+
+  .myprofile-img {
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 530px) {
@@ -413,6 +427,34 @@
   .myprofile {
     width: 100%;
   }
+
+  .myprofile-img {
+    height: 150px;
+  }
+
+  .myprofile-intro {
+    margin-bottom: 20px;
+  }
+
+  .myprofile h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  .myprofile-margin {
+    margin-bottom: 10px;
+  }
+
+  .myprofile p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .myprofile .myprofile-intro-txt {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 5px 0 5px;
+  }
 }
 
 @media screen and (max-width: 440px) {
@@ -424,5 +466,512 @@
     width: 100%;
     height: 45px;
     float: none;
+  }
+}
+
+/* PORTFOLIO */
+@media screen and (max-width: 1400px) {
+  .portfolio .inner {
+    height: fit-content;
+    padding-bottom: 50px;
+  }
+
+  .port-sw {
+    width: 84%;
+  }
+
+  .preview {
+    height: 22vw;
+  }
+
+  .port-mark {
+    top: 17.5vw;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .preview {
+    height: 30vw;
+  }
+
+  .port-mark {
+    top: 25.1vw;
+  }
+
+  .port-cate-item:hover .preview {
+    background-size: 101% !important;
+    background-position: 50% 10% !important;
+  }
+
+  .figma-item:hover .preview {
+    background-size: 101% !important;
+    background-position: 50% 15% !important;
+  }
+
+  .port-btn-prev {
+    top: 45vw;
+  }
+
+  .port-btn-next {
+    top: 45vw;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .port-sw {
+    width: 80%;
+  }
+
+  .port-mark {
+    top: 24.1vw;
+  }
+
+  .port-btn-prev {
+    top: 50vw;
+  }
+
+  .port-btn-next {
+    top: 50vw;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .port-mark {
+    top: 23.5vw;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .portfolio-menu li {
+    display: none;
+  }
+
+  .portfolio-mb-menu {
+    display: block;
+  }
+
+  .design-menu li {
+    display: none;
+  }
+
+  .design-mb-menu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .port-mark {
+    top: 22.5vw;
+  }
+
+  .port-cate-item h5 {
+    font-size: 17px;
+    margin-bottom: 5px;
+  }
+
+  .port-cate-item p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .port-btn a {
+    height: 26px;
+    border-radius: 13px;
+    font-size: 12px;
+    line-height: 26px;
+    margin-right: 2px;
+  }
+
+  .port-btn-prev {
+    top: 52vw;
+  }
+
+  .port-btn-next {
+    top: 52vw;
+  }
+
+  .port-btn-prev img {
+    width: 40px;
+    height: 100px;
+  }
+
+  .port-btn-next img {
+    width: 40px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .preview {
+    height: 55vw;
+  }
+
+  .port-cate-item h5 {
+    font-size: 19px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+
+  .port-cate-item p {
+    font-size: 16px;
+    margin-left: 5px;
+    margin-bottom: 25px;
+  }
+
+  .port-btn a {
+    display: inline-block;
+    width: fit-content;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: "Noto Sans", sans-serif;
+    line-height: 30px;
+    background: #eee;
+    padding: 0 5%;
+    margin-right: 3px;
+    transition: transform 0.3s;
+  }
+
+  .port-mark {
+    top: 46vw;
+  }
+
+  .port-sw {
+    width: 70%;
+  }
+
+  .port-cate-item:hover .preview {
+    background-size: 103% !important;
+    background-position: 50% 10% !important;
+  }
+
+  .figma-item:hover .preview {
+    background-size: 103% !important;
+    background-position: 50% 10% !important;
+  }
+
+  .port-btn-prev {
+    top: 70vw;
+  }
+
+  .port-btn-next {
+    top: 70vw;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .port-cate-item h5 {
+    font-size: 18px;
+  }
+
+  .port-cate-item p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .port-btn a {
+    height: 26px;
+    border-radius: 13px;
+    font-size: 12px;
+    line-height: 26px;
+    margin-right: 1.5px;
+  }
+
+  .port-mark {
+    top: 44.5vw;
+  }
+
+  .port-btn-prev {
+    top: 75vw;
+  }
+
+  .port-btn-next {
+    top: 75vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .port-cate-item h5 {
+    font-size: 16px;
+  }
+
+  .port-cate-item p {
+    font-size: 13px;
+    margin-bottom: 15px;
+  }
+
+  .port-mark {
+    top: 43.2vw;
+  }
+
+  .port-btn-prev img {
+    width: 30px;
+    height: 75px;
+  }
+
+  .port-btn-next img {
+    width: 30px;
+    height: 75px;
+  }
+
+  .port-btn-prev {
+    top: 83vw;
+  }
+
+  .port-btn-next {
+    top: 83vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .port-mark {
+    top: 42vw;
+  }
+
+  .port-btn-prev {
+    top: 90vw;
+  }
+
+  .port-btn-next {
+    top: 90vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .port-cate-item h5 {
+    font-size: 14px;
+  }
+
+  .port-cate-item p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .port-btn a {
+    height: 22px;
+    border-radius: 11px;
+    font-size: 10px;
+    line-height: 22px;
+    margin-right: 0.5px;
+  }
+
+  .port-mark {
+    top: 40vw;
+  }
+
+  .port-btn-prev img {
+    width: 20px;
+    height: 60px;
+  }
+
+  .port-btn-next img {
+    width: 20px;
+    height: 60px;
+  }
+
+  .port-btn-prev {
+    top: 110vw;
+  }
+
+  .port-btn-next {
+    top: 110vw;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .port-mark {
+    top: 38vw;
+  }
+
+  .port-btn-prev {
+    top: 120vw;
+  }
+
+  .port-btn-next {
+    top: 120vw;
+  }
+}
+
+/* DESIGN */
+@media screen and (max-width: 1400px) {
+  .design .inner {
+    height: fit-content;
+    padding-bottom: 150px;
+  }
+
+  .design-sw {
+    width: 84%;
+  }
+}
+
+@media screen and (max-width: 1390px) {
+  .branding-txt {
+    margin-top: 120px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .branding-txt {
+    width: calc(100% - 530px);
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .branding-txt h5 {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+
+  .branding-txt p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .design-sw {
+    width: 80%;
+  }
+
+  .branding-img {
+    width: 40vw;
+    float: left;
+  }
+
+  .branding-img img {
+    display: block;
+    width: 40vw;
+  }
+
+  .branding-txt {
+    width: calc(100% - 50px - 40vw);
+    margin-left: 50px;
+    margin-top: 10vw;
+  }
+
+  .branding-txt h5 {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+
+  .branding-txt p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .branding-img {
+    width: 30vw;
+  }
+
+  .branding-img img {
+    width: 30vw;
+  }
+
+  .branding-txt {
+    width: calc(100% - 50px - 30vw);
+    margin-top: 7vw;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .branding-txt {
+    margin-top: 0;
+  }
+
+  .branding-txt h5 {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .design-btn-prev img {
+    width: 40px;
+    height: 100px;
+  }
+
+  .design-btn-next img {
+    width: 40px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .branding-img {
+    width: 100%;
+    float: none;
+  }
+
+  .branding-img img {
+    width: 100%;
+  }
+
+  .branding-img .mock-up {
+    display: none;
+  }
+
+  .branding-txt {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+    margin-top: 25px;
+  }
+
+  .branding-txt h5 {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+
+  .branding-txt p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .branding-txt h5 {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+
+  .branding-txt p {
+    font-size: 13.5px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .design-btn-prev img {
+    width: 30px;
+    height: 75px;
+  }
+
+  .design-btn-next img {
+    width: 30px;
+    height: 75px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .branding-txt h5 {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  .branding-txt p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .design-btn-prev img {
+    width: 20px;
+    height: 60px;
+  }
+
+  .design-btn-next img {
+    width: 20px;
+    height: 60px;
   }
 }
