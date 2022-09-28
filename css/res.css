@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 500px) {
   .inner {
-    margin: 0 10%;
+    margin: 0 5%;
   }
 }
 
@@ -518,6 +518,11 @@
 }
 
 @media screen and (max-width: 1100px) {
+  .portfolio .inner {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
   .port-sw {
     width: 80%;
   }
@@ -723,6 +728,20 @@
   .port-btn-next {
     top: 83vw;
   }
+
+  .port-pagination .swiper-pagination-bullet {
+    width: 8.5px;
+    height: 8.5px;
+    background: #333;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .port-sw {
+    width: 75%;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -804,6 +823,18 @@
   .design-sw {
     width: 84%;
   }
+
+  .draw-chris {
+    width: 100%;
+  }
+
+  .draw-new {
+    display: none;
+  }
+
+  .design-pagination {
+    bottom: 150px;
+  }
 }
 
 @media screen and (max-width: 1390px) {
@@ -831,8 +862,17 @@
 }
 
 @media screen and (max-width: 1100px) {
+  .design .inner {
+    height: auto;
+    padding-bottom: 150px;
+  }
+
   .design-sw {
     width: 80%;
+  }
+
+  .design-pagination {
+    bottom: 150px;
   }
 
   .branding-img {
@@ -859,31 +899,158 @@
   .branding-txt p {
     font-size: 12px;
   }
+
+  .symbol-desc {
+    margin-right: 5%;
+  }
+
+  .symbol-desc p {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  .symbol-mockup {
+    width: 41%;
+  }
+
+  .mock-up-kimslong {
+    width: 41%;
+  }
+
+  .edit-desc {
+    margin-right: 5%;
+    margin-top: 7vw;
+  }
+
+  .edit-desc h5 {
+    margin-bottom: 30px;
+  }
+
+  .edit-desc p {
+    font-size: 15px;
+  }
+
+  .edit-brochure-1 {
+    height: 44.54vw;
+  }
+
+  .edit-brochure-2 {
+    height: 44.54vw;
+  }
+
+  .edit-brochure-3 {
+    height: 44.54vw;
+  }
+
+  .draw-left {
+    width: calc(100% - 25vw - 30px);
+  }
+
+  .draw-insta {
+    width: 25vw;
+  }
+
+  .design-pagination {
+    bottom: 140px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
   .branding-img {
-    width: 30vw;
+    width: 100%;
+    float: none;
+    margin: 0 auto;
   }
 
   .branding-img img {
-    width: 30vw;
+    width: 55.5%;
+    float: left;
   }
 
-  .branding-txt {
-    width: calc(100% - 50px - 30vw);
-    margin-top: 7vw;
-  }
-}
-
-@media screen and (max-width: 860px) {
-  .branding-txt {
+  .branding-img .mock-up {
+    width: 39.5%;
+    float: left;
+    margin-left: 5%;
     margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+  .branding-txt {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+    margin-top: 50px;
   }
 
   .branding-txt h5 {
-    font-size: 14px;
+    font-size: 18px;
+  }
+
+  .branding-txt p {
+    font-size: 15px;
+  }
+
+  .symbol-desc {
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+  }
+
+  .symbol-desc h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .symbol-mockup {
+    display: none;
+  }
+
+  .mock-up-kimslong {
+    display: none;
+  }
+
+  .edit-desc {
+    margin-top: 5vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .design-edit {
+    width: 90%;
+  }
+
+  .edit-desc {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0;
+    float: none;
+  }
+
+  .edit-desc h5 {
+    font-size: 18px;
     margin-bottom: 15px;
+  }
+
+  .edit-desc p {
+    display: none;
+  }
+
+  .edit-brochure-1 {
+    width: 100%;
+    float: none;
+    height: 42vw;
+  }
+
+  .edit-brochure-2 {
+    width: 100%;
+    float: none;
+    height: 42vw;
+  }
+
+  .edit-brochure-3 {
+    width: 100%;
+    float: none;
+    height: 42vw;
   }
 }
 
@@ -899,14 +1066,67 @@
   }
 }
 
-@media screen and (max-width: 730px) {
-  .branding-img {
+@media screen and (max-width: 800px) {
+  .edit-brochure-1 {
+    min-height: 340px;
+  }
+
+  .edit-brochure-2 {
+    min-height: 340px;
+  }
+
+  .edit-brochure-3 {
+    min-height: 340px;
+  }
+
+  .draw-left {
+    width: calc(100% - 25vw - 20px);
+    min-height: 380px;
+  }
+
+  .draw-blue {
+    margin-bottom: 20px;
+    height: calc((100% - 20px) / 2);
+  }
+
+  .draw-chris {
     width: 100%;
-    float: none;
+    margin-right: 20px;
+    height: calc((100% - 20px) / 2);
+  }
+
+  .draw-new {
+    display: none;
+    height: calc((100% - 20px) / 2);
+  }
+
+  .draw-insta {
+    min-height: 340px;
+    margin-left: 20px;
+    min-height: 380px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .edit-brochure-1 {
+    min-height: 370px;
+  }
+
+  .edit-brochure-2 {
+    min-height: 370px;
+  }
+
+  .edit-brochure-3 {
+    min-height: 370px;
+  }
+
+  .branding-img {
+    width: 85%;
   }
 
   .branding-img img {
     width: 100%;
+    margin-bottom: 30px;
   }
 
   .branding-img .mock-up {
@@ -914,9 +1134,9 @@
   }
 
   .branding-txt {
-    width: 100%;
+    width: 85%;
     float: none;
-    margin-left: 0;
+    margin: 0 auto;
     margin-top: 25px;
   }
 
@@ -926,11 +1146,44 @@
   }
 
   .branding-txt p {
-    font-size: 15px;
+    font-size: 14px;
+  }
+
+  .symbol-kimslong {
+    min-height: 120px;
+  }
+
+  .symbol-sungju {
+    min-height: 120px;
+  }
+
+  .symbol-think {
+    min-height: 120px;
+  }
+
+  .draw-left {
+    width: 100%;
+    float: none;
+    min-height: 410px;
+  }
+
+  .draw-insta {
+    display: none;
   }
 }
 
 @media screen and (max-width: 700px) {
+  .branding-img {
+    width: 80%;
+  }
+
+  .branding-txt {
+    width: 80%;
+    float: none;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+
   .branding-txt h5 {
     font-size: 18px;
     margin-bottom: 25px;
@@ -942,6 +1195,18 @@
 }
 
 @media screen and (max-width: 550px) {
+  .design-sw {
+    width: 75%;
+  }
+
+  .design-btn-prev {
+    bottom: 42%;
+  }
+
+  .design-btn-next {
+    bottom: 42%;
+  }
+
   .design-btn-prev img {
     width: 30px;
     height: 75px;
@@ -954,13 +1219,37 @@
 }
 
 @media screen and (max-width: 530px) {
+  .design-sw {
+    width: 75%;
+  }
+
+  .branding-img {
+    width: 95%;
+  }
+
+  .branding-txt {
+    width: 95%;
+  }
+
   .branding-txt h5 {
     font-size: 15px;
     margin-bottom: 15px;
   }
 
-  .branding-txt p {
-    font-size: 12px;
+  .design-btn-prev {
+    bottom: 41%;
+  }
+
+  .design-btn-next {
+    bottom: 41%;
+  }
+
+  .design-pagination .swiper-pagination-bullet {
+    width: 8.5px;
+    height: 8.5px;
+    background: #333;
+    border-radius: 5px;
+    margin-right: 5px;
   }
 }
 
@@ -973,5 +1262,14 @@
   .design-btn-next img {
     width: 20px;
     height: 60px;
+  }
+
+  .symbol-desc span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 0;
+    margin-right: 8px;
   }
 }
