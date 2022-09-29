@@ -56,6 +56,21 @@ window.onload = function () {
     });
   });
 
+  // Visual-line Animation
+  new Waypoint({
+    element: $(".profile"),
+    handler: function (direction) {
+      if (direction == "down") {
+        $(".visual-bg p").addClass("p-hidden");
+        $(".visual-bg .line").addClass("line-hidden");
+      } else if (direction == "up") {
+        $(".visual-bg p").removeClass("p-hidden");
+        $(".visual-bg .line").removeClass("line-hidden");
+      }
+    },
+    offset: "90%",
+  });
+
   // Chart Animation
   new Waypoint({
     element: $(".profile"),

@@ -77,6 +77,10 @@
     />
     <script src="js/lightbox2/js/lightbox.js"></script>
 
+    <!-- 딩벳폰트 참조 -->
+    <link rel="stylesheet" href="css/fontello/css/animation.css" />
+    <link rel="stylesheet" href="css/fontello/css/fontello.css" />
+
     <!-- 자바스크립트 애니메이션 라이브러리 -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"
@@ -93,6 +97,7 @@
     <link rel="stylesheet" href="css/res.css" />
     <script src="js/script.js"></script>
   </head>
+
   <body>
     <div class="wrap">
       <!-- MOBILE MENU -->
@@ -119,7 +124,9 @@
         <a href="https://github.com/dev-axnn" target="_blank"
           ><span>GitHub</span></a
         >
-        <a href="최정안.pdf" class="fix-download"><span>PDF</span></a>
+        <a href="최정안.pdf" class="fix-download" download="최정안 포트폴리오"
+          ><span>PDF</span></a
+        >
       </div>
       <!-- //FIX REMOTE -->
 
@@ -142,18 +149,22 @@
 
       <!-- VISUAL -->
       <section class="visual" id="visual">
-        <div class="inner clearfix">
-          <div class="visual-arttext">
-            <h2>Resourceful</h2>
+        <div class="visual-bg">
+          <p>Resourceful</p>
+          <span class="line"></span>
+        </div>
+        <div class="inner">
+          <div class="visual-mainpic"></div>
+          <div class="visual-txt">
+            <p class="imahn">Nice meet U<br />I'm Ahn.</p>
+            <p>
+              7th year as a Designer and Now,<br />
+              Publisher and Front-end developer.<br />
+              I promise you the quality and<br />
+              completeness of the code.
+            </p>
           </div>
-          <div class="box-top"></div>
-          <div class="box-mdl"></div>
-          <div class="box-btm"></div>
-          <div class="visual-maintext">
-            <p>7년간의 경력으로 퀄리티와 코드의 완성도를 높이겠습니다.</p>
-            <h3>퍼블리셔·FE개발자 최정안입니다.</h3>
-            <span>2023 AHN PORTFOLIO</span>
-          </div>
+          <span>2023 ver AHN PORTFOLIO</span>
         </div>
       </section>
       <!-- //VISUAL -->
@@ -686,15 +697,17 @@
       <!-- CONTACT -->
       <section class="contact" id="contact">
         <div class="inner">
-          <div class="footer-profile-wrap">
-            <span class="footer-profile-img"></span>
-            <div class="footer-profile-item">
-              <h3>Contact</h3>
-              <p>
-                E-mail : dev.axnn@gmail.com <br />
-                instagram : instagram.com/axn0_1 <br />
-                openchat : https://open.kakao.com/o/sGxW4jDe
-              </p>
+          <div class="footer-wrap">
+            <div class="footer-item">
+              <a href="mailto: dev.axnn@gmail.com" target="_blank"
+                ><i class="icon-mail-alt"></i>메일보내기</a
+              >
+              <a href="http://instagram.com/axn0_1/" target="_blank"
+                ><i class="icon-instagram-filled"></i>인스타그램</a
+              >
+              <a href="https://open.kakao.com/o/sGxW4jDe" target="_blank"
+                ><i class="icon-chat"></i>카카오톡 오픈채팅</a
+              >
             </div>
           </div>
           <p>
