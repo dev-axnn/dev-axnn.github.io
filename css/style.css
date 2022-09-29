@@ -372,7 +372,7 @@ body {
   top: 0;
   width: 50%;
   height: 100%;
-  background: linear-gradient(-45deg, #242a53, #442f66, #587597, #404879);
+  background: linear-gradient(-45deg, #87acca, #5d7da1, #6d85a0, #404668);
   background-size: 600% 600%;
   animation: gradient 5s ease infinite;
   overflow: hidden;
