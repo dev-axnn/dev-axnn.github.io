@@ -1385,6 +1385,7 @@ body {
 }
 
 .about .inner {
+  position: relative;
   height: 920px;
 }
 
@@ -1487,6 +1488,7 @@ body {
   position: absolute;
   left: -17%;
   bottom: 65px;
+  z-index: 2;
 }
 
 .mbti-txt {
