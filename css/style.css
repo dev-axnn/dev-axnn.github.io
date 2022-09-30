@@ -215,7 +215,7 @@ body::-webkit-scrollbar-thumb {
   text-align: right;
   line-height: 75px;
   letter-spacing: 0.06em;
-  color: #ddd;
+  color: #acbcd1;
   padding: 30px 0 30px 0;
   margin: 0 50px;
 }
@@ -467,7 +467,7 @@ body::-webkit-scrollbar-thumb {
   transform: translateY(-50%);
   width: 690px;
   height: 80%;
-  background: url('../images/visual_mainpic.jpg') no-repeat 50% 100%;
+  background: url('../images/visual_mainpic.png') no-repeat 50% 100%;
   background-size: cover;
 }
 
