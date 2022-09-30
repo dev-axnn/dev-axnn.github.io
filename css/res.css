@@ -732,7 +732,6 @@
   .port-pagination .swiper-pagination-bullet {
     width: 8.5px;
     height: 8.5px;
-    background: #333;
     border-radius: 5px;
     margin-right: 5px;
   }
@@ -1247,7 +1246,6 @@
   .design-pagination .swiper-pagination-bullet {
     width: 8.5px;
     height: 8.5px;
-    background: #333;
     border-radius: 5px;
     margin-right: 5px;
   }
@@ -1396,5 +1394,433 @@
 @media screen and (max-width: 400px) {
   .about .inner {
     height: 135vw;
+  }
+}
+
+/* SKILLS */
+@media screen and (max-width: 1400px) {
+  .skill-sw {
+    width: 84%;
+    height: 16vw;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .skill-sw {
+    height: 20.5vw;
+  }
+
+  .skill-sw .swiper-slide span {
+    top: 42%;
+  }
+
+  .skill-pagination {
+    top: 50vw;
+  }
+
+  .skill-btn-prev {
+    top: 350px;
+  }
+
+  .skill-btn-next {
+    top: 350px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .skill-sw .swiper-slide span {
+    top: 45%;
+  }
+
+  .skill-pagination {
+    top: 55vw;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .skills .inner {
+    height: 65vw;
+  }
+
+  .skills .section-title {
+    padding-top: 100px;
+  }
+
+  .skill-sw {
+    width: 80%;
+    height: 19vw;
+  }
+
+  .skill-sw .swiper-slide span {
+    top: 50%;
+  }
+
+  .skill-pagination {
+    top: 51vw;
+  }
+
+  .skill-btn-prev {
+    top: 27vw;
+  }
+
+  .skill-btn-next {
+    top: 27vw;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .skill-sw {
+    margin: 70px auto;
+  }
+
+  .skill-sw .swiper-slide span {
+    font-size: 14px;
+    top: 55%;
+  }
+
+  .skill-btn-prev {
+    top: 28vw;
+  }
+
+  .skill-btn-next {
+    top: 28vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .skills .inner {
+    height: 80vw;
+  }
+
+  .skill-sw {
+    height: 27.5vw;
+  }
+
+  .skill-sw .swiper-slide span {
+    font-size: 16px;
+    top: 45%;
+  }
+
+  .skill-pagination {
+    top: 65vw;
+  }
+
+  .skill-btn-prev {
+    top: 31.5vw;
+  }
+
+  .skill-btn-next {
+    top: 31.5vw;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .skill .inner {
+    padding-bottom: 120px;
+  }
+
+  .skill-btn-prev img {
+    width: 40px;
+    height: 100px;
+  }
+
+  .skill-btn-next img {
+    width: 40px;
+    height: 100px;
+  }
+
+  .skill-btn-prev {
+    top: 37vw;
+  }
+
+  .skill-btn-next {
+    top: 37vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .skills .inner {
+    height: 70vw;
+  }
+
+  .skill-sw .swiper-slide span {
+    font-size: 16px;
+    top: 50%;
+  }
+
+  .skill-pagination {
+    top: 51vw;
+  }
+
+  .skills .section-title {
+    padding-top: 0px;
+  }
+
+  .skill-btn-prev {
+    top: 24vw;
+  }
+
+  .skill-btn-next {
+    top: 24vw;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .skills .inner {
+    height: 80vw;
+  }
+
+  .skill-pagination {
+    top: 55vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .skill-sw .swiper-slide span {
+    font-size: 16px;
+    top: 55%;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .skills .inner {
+    padding-bottom: 100px;
+    height: 95vw;
+  }
+
+  .skills .section-title {
+    padding-top: 50px;
+  }
+
+  .skill-sw {
+    height: 25.5vw;
+  }
+
+  .skill-sw .swiper-slide span {
+    font-size: 13px;
+    top: 60%;
+  }
+
+  .skill-pagination {
+    top: 65vw;
+  }
+
+  .skill-btn-prev {
+    top: 35vw;
+  }
+
+  .skill-btn-next {
+    top: 35vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skill-sw .swiper-slide span {
+    top: 65%;
+  }
+
+  #pro1 {
+    background: url("../images/skill-html.png") no-repeat 50% 35%;
+    background-size: 30%;
+  }
+
+  #pro2 {
+    background: url("../images/skill-css.png") no-repeat 50% 35%;
+    background-size: 30%;
+  }
+
+  #pro3 {
+    background: url("../images/skill-js.png") no-repeat 50% 33%;
+    background-size: 30%;
+  }
+
+  #pro4 {
+    background: url("../images/skill-jq.png") no-repeat 50% 35%;
+    background-size: 35%;
+  }
+
+  #pro5 {
+    background: url("../images/skill-vue.png") no-repeat 50% 35%;
+    background-size: 30%;
+  }
+
+  #pro6 {
+    background: url("../images/skill-sass.png") no-repeat 50% 35%;
+    background-size: 30%;
+  }
+
+  #pro7 {
+    background: url("../images/skill-figma.png") no-repeat 50% 35%;
+    background-size: 30%;
+  }
+
+  #pro8 {
+    background: url("../images/skill-git.png") no-repeat 50% 35%;
+    background-size: 30%;
+  }
+
+  #pro9 {
+    background: url("../images/skill-photoshop.png") no-repeat 50% 35%;
+    background-size: 30%;
+  }
+
+  #pro10 {
+    background: url("../images/skill-illustrator.png") no-repeat 50% 35%;
+    background-size: 30%;
+  }
+
+  #pro11 {
+    background: url("../images/skill-indesign.png") no-repeat 50% 35%;
+    background-size: 30%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .skill-btn-prev img {
+    width: 30px;
+    height: 75px;
+  }
+
+  .skill-btn-next img {
+    width: 30px;
+    height: 75px;
+  }
+
+  .skill-pagination {
+    top: 68vw;
+  }
+
+  .skill-btn-prev {
+    top: 37vw;
+  }
+
+  .skill-btn-next {
+    top: 37vw;
+  }
+
+  .skill-pagination .swiper-pagination-bullet {
+    width: 8.5px;
+    height: 8.5px;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .skill-sw {
+    width: 85%;
+    height: 28vw;
+    margin: 9vw auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .skill-sw .swiper-slide span {
+    font-size: 12px;
+    top: 70%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .skill-sw .swiper-slide span {
+    top: 75%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .skills .section-title {
+    padding-top: 50px;
+  }
+
+  .skill-sw {
+    height: 30vw;
+    margin: 8vw auto;
+  }
+
+  #pro1 {
+    background: url("../images/skill-html.png") no-repeat 50% 28%;
+    background-size: 30%;
+  }
+
+  #pro2 {
+    background: url("../images/skill-css.png") no-repeat 50% 28%;
+    background-size: 30%;
+  }
+
+  #pro3 {
+    background: url("../images/skill-js.png") no-repeat 50% 28%;
+    background-size: 30%;
+  }
+
+  #pro4 {
+    background: url("../images/skill-jq.png") no-repeat 50% 28%;
+    background-size: 35%;
+  }
+
+  #pro5 {
+    background: url("../images/skill-vue.png") no-repeat 50% 28%;
+    background-size: 30%;
+  }
+
+  #pro6 {
+    background: url("../images/skill-sass.png") no-repeat 50% 28%;
+    background-size: 30%;
+  }
+
+  #pro7 {
+    background: url("../images/skill-figma.png") no-repeat 50% 28%;
+    background-size: 30%;
+  }
+
+  #pro8 {
+    background: url("../images/skill-git.png") no-repeat 50% 28%;
+    background-size: 30%;
+  }
+
+  #pro9 {
+    background: url("../images/skill-photoshop.png") no-repeat 50% 28%;
+    background-size: 30%;
+  }
+
+  #pro10 {
+    background: url("../images/skill-illustrator.png") no-repeat 50% 28%;
+    background-size: 30%;
+  }
+
+  #pro11 {
+    background: url("../images/skill-indesign.png") no-repeat 50% 28%;
+    background-size: 30%;
+  }
+
+  .skill-btn-prev img {
+    width: 20px;
+    height: 60px;
+  }
+
+  .skill-btn-next img {
+    width: 20px;
+    height: 60px;
+  }
+
+  .skill-btn-prev {
+    top: 40vw;
+  }
+
+  .skill-btn-next {
+    top: 40vw;
+  }
+
+  .skill-pagination {
+    top: 68vw;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .skill-btn-prev {
+    top: 42vw;
+  }
+
+  .skill-btn-next {
+    top: 42vw;
   }
 }

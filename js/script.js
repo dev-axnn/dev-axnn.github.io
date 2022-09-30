@@ -438,7 +438,7 @@ window.onload = function () {
       easing: "easeInOut",
       duration: 1400,
       color: _color,
-      trailColor: "#aaa",
+      trailColor: "#323b70",
       trailWidth: 1,
       svgStyle: null,
     });
@@ -474,6 +474,59 @@ window.onload = function () {
     navigation: {
       nextEl: ".skill-btn-next",
       prevEl: ".skill-btn-prev",
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+        slidesPerGroup: 2,
+      },
+
+      531: {
+        slidesPerView: 2,
+        spaceBetween: 35,
+        slidesPerGroup: 2,
+      },
+
+      631: {
+        slidesPerView: 2,
+        spaceBetween: 40,
+        slidesPerGroup: 2,
+      },
+
+      751: {
+        slidesPerView: 2,
+        spaceBetween: 75,
+        slidesPerGroup: 2,
+      },
+
+      // 750보다 클 경우
+      901: {
+        slidesPerView: 3,
+        spaceBetween: 50,
+        slidesPerGroup: 3,
+      },
+
+      // 1100보다 클 경우
+      1101: {
+        slidesPerView: 3,
+        spaceBetween: 75,
+        slidesPerGroup: 3,
+      },
+
+      // 1300보다 클 경우
+      1301: {
+        slidesPerView: 4,
+        spaceBetween: 60,
+        slidesPerGroup: 4,
+      },
+
+      // 1400보다 클 경우
+      1401: {
+        slidesPerView: 4,
+        spaceBetween: 85,
+        slidesPerGroup: 4,
+      },
     },
   });
 };
