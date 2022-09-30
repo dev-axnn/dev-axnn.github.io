@@ -244,17 +244,6 @@
 }
 
 @media screen and (max-width: 1100px) {
-  .visual-txt {
-    left: 55%;
-  }
-  
-  .visual-txt-p {
-    background-color: #fff;
-    padding: 10px;
-  }
-}
-
-@media screen and (max-width: 1030px) {
   .visual-txt .imahn {
     font-size: 50px;
     line-height: 55px;
