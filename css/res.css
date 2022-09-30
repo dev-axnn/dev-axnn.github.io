@@ -199,14 +199,8 @@
 
 @media screen and (max-width: 1510px) {
   .visual-mainpic {
-    position: absolute;
     left: 35px;
-    top: 50%;
-    transform: translateY(-50%);
     width: 53%;
-    height: 80%;
-    background: url('../images/visual_mainpic.jpg') no-repeat 50% 100%;
-    background-size: cover;
   }
 }
 
