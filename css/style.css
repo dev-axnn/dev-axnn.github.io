@@ -465,9 +465,10 @@ body::-webkit-scrollbar-thumb {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  width: 53%;
+  width: 690px;
   height: 80%;
-  background: #eee;
+  background: url('../images/visual_mainpic.jpg') no-repeat 50% 100%;
+  background-size: cover;
 }
 
 .visual-txt {
@@ -476,15 +477,7 @@ body::-webkit-scrollbar-thumb {
   bottom: 15%;
 }
 
-.visual-txt .imahn {
-  font-size: 65px;
-  font-family: "Shrikhand", cursive;
-  color: #242a53;
-  line-height: 68px;
-  margin-bottom: 15px;
-}
-
-.visual-txt p {
+.visual-txt-p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -493,7 +486,18 @@ body::-webkit-scrollbar-thumb {
   color: #aaa;
 }
 
+.visual-txt .imahn {
+  font-size: 65px;
+  font-family: "Shrikhand", cursive;
+  color: #242a53;
+  line-height: 68px;
+  margin-bottom: 15px;
+  white-space: nowrap;
+  background-color: transparent;
+}
+
 .visual .inner span {
+  display: block;
   position: absolute;
   right: 0;
   top: 12%;
