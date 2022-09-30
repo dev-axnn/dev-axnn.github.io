@@ -36,6 +36,23 @@ body {
   line-height: 1.4;
   letter-spacing: -0.64;
   color: #444;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+  height: 5px;
+  background-color: #eee;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #8da0b1;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
 }
 
 /* === 공통요소 === */
@@ -239,9 +256,9 @@ body {
 .fix-remote a {
   position: relative;
   display: block;
-  width: 80px;
-  height: 80px;
-  border-radius: 40px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
   background: #242a53;
   margin-top: 15px;
   text-align: center;
@@ -258,20 +275,36 @@ body {
   height: 100%;
   border-radius: 50%;
 
-  font-size: 18px;
-  font-family: "Shrikhand", cursive;
-  line-height: 80px;
-  color: #fff;
-  text-align: center;
+  font-size: 0;
   transition: all 0.5s;
 }
 
+.fix-remote .fix-git {
+  background: url("../images/fix-github-w.png") no-repeat center;
+  background-size: 50%;
+}
+
+.fix-remote .fix-pdf {
+  background: url("../images/fix-pdf-w.png") no-repeat center;
+  background-size: 45%;
+}
+
 .fix-remote-reversal a {
-  background: #fff;
+  background: #eee;
 }
 
 .fix-remote-reversal a span {
   color: #242a53;
+}
+
+.fix-remote-reversal .fix-git {
+  background: url("../images/fix-github-b.png") no-repeat center;
+  background-size: 50%;
+}
+
+.fix-remote-reversal .fix-pdf {
+  background: url("../images/fix-pdf-b.png") no-repeat center;
+  background-size: 45%;
 }
 
 /* HEADER */
@@ -1702,14 +1735,14 @@ body {
 
 .contact .inner {
   position: relative;
-  height: 180px;
+  height: 200px;
 }
 
 .contact .inner > p {
   text-align: center;
   font-size: 12px;
   color: #666;
-  padding-top: 120px;
+  padding-top: 140px;
 }
 
 .footer-wrap {
@@ -1736,6 +1769,10 @@ body {
   text-align: center;
   float: left;
   margin-right: 25px;
+}
+
+.footer-item a:last-child {
+  margin-right: 0;
 }
 
 .footer-item a:first-child i {
