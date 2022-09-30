@@ -244,6 +244,10 @@
 }
 
 @media screen and (max-width: 1100px) {
+  .visual {
+    padding-top: 60px;
+  }
+
   .visual-txt .imahn {
     font-size: 50px;
     line-height: 55px;
