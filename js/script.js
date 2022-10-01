@@ -14,7 +14,7 @@ $(window).load(function () {
   };
   setTimeout(function () {
     hideLoading();
-  }, 1500);
+  }, 500);
 });
 
 window.onload = function () {
