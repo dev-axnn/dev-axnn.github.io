@@ -171,7 +171,7 @@
   .visual-bg p {
     left: 0px;
   }
-  
+
   .visual-bg .line {
     left: 120px;
   }
@@ -181,7 +181,7 @@
   .visual-bg p {
     left: -30px;
   }
-  
+
   .visual-bg .line {
     left: 90px;
   }
@@ -191,7 +191,7 @@
   .visual-bg p {
     left: -60px;
   }
-  
+
   .visual-bg .line {
     left: 60px;
   }
@@ -208,7 +208,7 @@
   .visual-bg p {
     display: none;
   }
-  
+
   .visual-bg .line {
     display: none;
   }
@@ -226,12 +226,12 @@
     font-size: 55px;
     line-height: 60px;
   }
-    
+
   .visual-txt p {
     font-size: 14px;
     line-height: 22px;
   }
-  
+
   .visual .inner span {
     font-size: 12px;
   }
@@ -303,13 +303,39 @@
 
 /* PROFILE */
 @media screen and (max-width: 1450px) {
-  .myprofile-img {
-    height: 29vw;
+  .myprofile .myprofile-intro-txt {
+    font-size: 13.5px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .possivility {
+    margin-right: 5%;
+  }
+
+  .myprofile {
+    width: calc(95% - 380px);
+    height: 100%;
+    float: right;
   }
 
   .myprofile .myprofile-intro-txt {
     font-size: 13.5px;
     line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 1275px) {
+  .myprofile .myprofile-intro-txt {
+    font-size: 13px;
+    line-height: 21px;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .myprofile .myprofile-intro-txt {
+    margin: 5px 0 5px;
   }
 }
 
@@ -368,6 +394,12 @@
     margin-right: 8%;
   }
 
+  .myprofile .myprofile-intro-txt {
+    font-size: 15px;
+    line-height: 25px;
+    margin: 15px 0 15px;
+  }
+
   .myprofile-item {
     width: 25vw;
   }
@@ -393,6 +425,11 @@
     margin-right: 8%;
   }
 
+  .myprofile .myprofile-intro-txt {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
   .myprofile-item {
     width: 235px;
   }
@@ -414,6 +451,11 @@
 
   .myprofile-margin {
     margin-bottom: 20px;
+  }
+
+  .myprofile .myprofile-intro-txt {
+    font-size: 13.5px;
+    line-height: 22px;
   }
 }
 
@@ -437,6 +479,18 @@
 
   .myprofile {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .myprofile .myprofile-intro-txt {
+    font-size: 13.5px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .myprofile .myprofile-intro-txt {
+    margin: 0;
   }
 }
 
@@ -2017,5 +2071,9 @@
   .contact .inner > p {
     font-size: 9px;
     padding-top: 85px;
+  }
+
+  .contact .inner > p .res-show {
+    display: block;
   }
 }

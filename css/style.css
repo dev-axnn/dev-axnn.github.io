@@ -468,7 +468,7 @@ body::-webkit-scrollbar-thumb {
   transform: translateY(-50%);
   width: 690px;
   height: 80%;
-  background: url('../images/visual_mainpic.png') no-repeat 50% 100%;
+  background: url("../images/visual_mainpic.png") no-repeat 50% 100%;
   background-size: cover;
 }
 
@@ -516,7 +516,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .profile .inner {
-  height: 1120px;
+  height: 1070px;
 }
 
 .profile .section-title {
@@ -537,9 +537,9 @@ body::-webkit-scrollbar-thumb {
 .chart {
   position: relative;
   width: 100%;
-  height: 320px;
+  height: 350px;
   min-height: 200px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .chart-graph {
@@ -571,7 +571,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .chart-desc {
-  margin-bottom: 15px;
+  margin-bottom: 19px;
 }
 
 .chart-icon {
@@ -620,7 +620,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .chart-txt p {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .chart-txt b {
@@ -638,7 +638,7 @@ body::-webkit-scrollbar-thumb {
 .myprofile-img {
   display: block;
   width: 100%;
-  height: 405px;
+  height: 350px;
   background: url("../images/myprofile-img.png") no-repeat center bottom;
   background-size: cover;
   margin-bottom: 45px;
@@ -675,6 +675,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 14.5px;
   line-height: 23px;
   margin: 15px 0 15px;
+  text-align: justify;
 }
 
 .myprofile .myprofile-intro-txt b {
@@ -1748,6 +1749,10 @@ body::-webkit-scrollbar-thumb {
   font-size: 12px;
   color: #666;
   padding-top: 140px;
+}
+
+.contact .inner > p .res-show {
+  display: none;
 }
 
 .footer-wrap {
