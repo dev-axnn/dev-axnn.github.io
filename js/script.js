@@ -1,3 +1,22 @@
+window.onbeforeunload = function () {
+  //현재 페이지에서 다른 페이지로 넘어갈 때 표시해주는 기능
+  let showLoading = () => {
+    $("#loading").fadein(500);
+  };
+  showLoading();
+};
+
+$(window).load(function () {
+  //페이지가 로드 되면 로딩 화면을 없애주는 것
+  let hideLoading = () => {
+    $("#loading").fadeOut(500);
+    $("html").css("overflowY", "auto");
+  };
+  setTimeout(function () {
+    hideLoading();
+  }, 1500);
+});
+
 window.onload = function () {
   AOS.init();
 
