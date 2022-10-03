@@ -89,18 +89,9 @@
     <!-- Progressbar 관련 -->
     <script type="text/javascript" src="js/progressbar/progressbar.js"></script>
 
-    <!-- fullpage 관련 -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="js/fullpage.js/jquery.fullPage.css"
-    />
-    <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "easeInOutCubic". -->
-    <script src="vendors/easings.min.js"></script>
-    <script
-      type="text/javascript"
-      src="js/fullpage.js/jquery.fullPage.js"
-    ></script>
+    <!-- FullPage 관련 -->
+    <link rel="stylesheet" href="js/fullPage.js/jquery.fullPage.css" />
+    <script type="text/javascript" src="js/fullPage.js/jquery.fullPage.js"></script>
 
     <script src="js/swiper/swiper.min.js"></script>
     <link rel="stylesheet" href="css/style.css" />
@@ -126,12 +117,12 @@
       <div class="mbmenu-wrap">
         <div class="mbmenu-view">
           <ul class="mbmenu">
-            <li><a href="#visual">HOME</a></li>
-            <li><a href="#profile">PROFILE</a></li>
-            <li><a href="#portfolio">PORTFOLIO</a></li>
-            <li><a href="#design">DESIGN</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#skills">SKILLS</a></li>
+            <li data-menuanchor="visual"><a href="#visual">HOME</a></li>
+            <li data-menuanchor="profile"><a href="#profile">PROFILE</a></li>
+            <li data-menuanchor="portfolio"><a href="#portfolio">PORTFOLIO</a></li>
+            <li data-menuanchor="design"><a href="#design">DESIGN</a></li>
+            <li data-menuanchor="about"><a href="#about">ABOUT</a></li>
+            <li data-menuanchor="skills"><a href="#skills">SKILLS</a></li>
             <li class="contact-click"><a href="#contact">CONTACT</a></li>
           </ul>
         </div>
@@ -160,14 +151,14 @@
             <li><a href="#design">DESIGN</a></li>
             <li><a href="#about">ABOUT</a></li>
             <li><a href="#skills">SKILLS</a></li>
-            <li class="contact-click"><a href="#contact" onclick="contactEvent()">CONTACT</a></li>
+            <li class="contact-click"><a href="#contact">CONTACT</a></li>
           </ul>
         </div>
       </header>
       <!-- //HEADER -->
 
       <!-- VISUAL -->
-      <section class="visual" id="visual">
+      <section class="visual section" id="visual">
         <div class="visual-bg">
           <p>Resourceful</p>
           <span class="line"></span>
@@ -189,7 +180,7 @@
       <!-- //VISUAL -->
 
       <!-- PROFILE -->
-      <section class="profile" id="profile">
+      <section class="profile section" id="profile">
         <div class="inner">
           <h2
             class="section-title"
@@ -329,7 +320,7 @@
       <!-- //PROFILE -->
 
       <!-- PORTFOLIO -->
-      <section class="portfolio" id="portfolio">
+      <section class="portfolio section" id="portfolio">
         <div class="inner">
           <h2
             class="section-title"
@@ -384,7 +375,7 @@
       <!-- //PORTFOLIO -->
 
       <!-- DESIGN -->
-      <section class="design" id="design">
+      <section class="design section" id="design">
         <div class="inner">
           <h2
             class="section-title"
@@ -606,7 +597,7 @@
       <!-- //DESIGN -->
 
       <!-- ABOUT -->
-      <section class="about" id="about">
+      <section class="about section" id="about">
         <div class="inner">
           <h2
             class="section-title"
@@ -658,7 +649,7 @@
       <!-- //ABOUT -->
 
       <!-- SKILLS -->
-      <section class="skills" id="skills">
+      <section class="skills section" id="skills">
         <div class="inner">
           <h2
             class="section-title"
