@@ -281,10 +281,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mbmenu li a {
+  display: block;
+  width: calc(100% - 50px);
   font-size: 26px;
   font-family: "Shrikhand", cursive;
   font-weight: 600;
-  text-align: right;
+  text-align: left;
   line-height: 75px;
   letter-spacing: 0.06em;
   color: #acbcd1;
@@ -1850,6 +1852,7 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   float: left;
   margin-right: 25px;
+  transition: border 0.3s;
 }
 
 .footer-item a:last-child {
@@ -1860,12 +1863,14 @@ body::-webkit-scrollbar-thumb {
   font-size: 20px;
   line-height: 43px;
   color: #fff;
+  transition: color 0.3s;
 }
 
 .footer-item a:nth-child(2) i {
   font-size: 19px;
   line-height: 43px;
   color: #fff;
+  transition: color 0.3s;
 }
 
 .footer-item a:nth-child(3) i {
@@ -1873,4 +1878,21 @@ body::-webkit-scrollbar-thumb {
   line-height: 45px;
   color: #fff;
   padding-right: 3.5px;
+  transition: color 0.3s;
+}
+
+.footer-item-event a {
+  border: 1px solid #daff24;
+}
+
+.footer-item-event a:first-child i {
+  color: #daff24;
+}
+
+.footer-item-event a:nth-child(2) i {
+  color: #daff24;
+}
+
+.footer-item-event a:nth-child(3) i {
+  color: #daff24;
 }

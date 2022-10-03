@@ -549,3 +549,15 @@ window.onload = function () {
     },
   });
 };
+
+// Contact Section Click Event
+$(document).ready(function(){
+	$('.contact-click').click(function(){
+    $('.footer-item').addClass('footer-item-event');
+    setTimeout(function(){
+      $('.footer-item').removeClass('footer-item-event');
+    },500);
+  });
+});
+  
+
