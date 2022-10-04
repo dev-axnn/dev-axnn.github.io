@@ -466,9 +466,9 @@ window.onload = function () {
 
   let bar_html = makeCircle(pro1, "#ff7200", "0.95");
   let bar_css = makeCircle(pro2, "#2196f3", "0.90");
-  let bar_js = makeCircle(pro3, "#ffd800", "0.75");
+  let bar_js = makeCircle(pro3, "#ffd800", "0.50");
   let bar_jq = makeCircle(pro4, "#aaa", "0.78");
-  let bar_vue = makeCircle(pro5, "#20dd88", "0.60");
+  let bar_vue = makeCircle(pro5, "#20dd88", "0.35");
   let bar_scss = makeCircle(pro6, "#ff62b1", "0.70");
   let bar_figma = makeCircle(pro7, "#62f1ff", "0.85");
   let bar_git = makeCircle(pro8, "#fff", "0.70");
@@ -558,9 +558,117 @@ $(document).ready(function () {
     }, 350);
   });
 
-  // $("#fullpage").fullpage({
-  //   //options here
-  //   autoScrolling: true,
-  //   scrollHorizontally: true,
+  // Gsap Onepage Scroll
+  // let section = [
+  //   "#visual",
+  //   "#profile",
+  //   "#portfolio",
+  //   "#design",
+  //   "#about",
+  //   "#skills",
+  // ];
+
+  // let sectionSpeed = 500;
+  // let sectionTotal = section.length;
+  // let sectionPos = [];
+
+  // $.each(section, function (index, item) {
+  //   sectionPos[index] = Math.ceil($(item).offset().top);
   // });
+
+  // $(window).scroll(function () {});
+
+  // let sectionW = 1150;
+
+  // $(window).resize(function () {
+  //   // 계속 값을 업데이트 한다.
+  //   $.each(section, function (index, item) {
+  //     sectionPos[index] = Math.ceil($(item).offset().top);
+  //   });
+
+  //   let scY = Math.ceil($(window).scrollTop());
+
+  //   for (let i = sectionTotal - 1; i > 0; i--) {
+  //     let temp = sectionPos[i];
+  //     if (scY > temp) {
+  //       sectionIndex = i;
+  //       break;
+  //     }
+  //   }
+
+  //   let winWidth = $(window).width();
+
+  //   if (winWidth <= sectionW) {
+  //     $("html").css("overflow-y", "auto");
+  //     wheelDefense = true;
+  //   } else {
+  //     wheelDefense = false;
+  //     $("html").css("overflow", "hidden");
+  //     gsap.to($("html"), sectionSpeed / 1000, {
+  //       scrollTo: sectionPos[sectionIndex],
+  //       onComplete: function () {
+  //         scrollIng = false;
+  //       },
+  //     });
+  //   }
+  // });
+
+  // gsap.to($("html"), sectionSpeed / 1000, {
+  //   scrollTo: 0,
+  //   onComplete: function () {
+  //     scrollIng = false;
+  //   },
+  // });
+
+  // let scrollIng = false;
+  // let wheelDefense = true;
+  // let sectionIndex = 0;
+
+  // $(window).bind("mousewheel DOMMouseScroll", function (event) {
+  //   if (wheelDefense == true) {
+  //     return;
+  //   }
+
+  //   let distance = event.originalEvent.wheelDelta;
+
+  //   if (distance == null) {
+  //     distance = event.originalEvent.detail * -1;
+  //   }
+  //   if (scrollIng == true) {
+  //     return;
+  //   }
+
+  //   scrollIng = true;
+
+  //   if (distance < 0) {
+  //     sectionIndex = sectionIndex + 1;
+  //     if (sectionIndex >= sectionTotal - 1) {
+  //       sectionIndex = sectionTotal - 1;
+  //     }
+  //   } else if (distance > 0) {
+  //     sectionIndex = sectionIndex - 1;
+  //     if (sectionIndex <= 0) {
+  //       sectionIndex = 0;
+  //     }
+  //   }
+
+  //   let scY = sectionPos[sectionIndex];
+
+  //   gsap.to($("html"), sectionSpeed / 1000, {
+  //     scrollTo: scY,
+  //     onComplete: function () {
+  //       scrollIng = false;
+  //     },
+  //   });
+  // });
+
+  // let tempW = $(window).width();
+
+  // if (tempW <= sectionW) {
+  //   $("html").css("overflow-y", "auto");
+  //   wheelDefense = true;
+  // } else {
+  //   $("html").css("overflow", "hidden");
+  //   wheelDefense = false;
+  // }
 });
