@@ -17,21 +17,6 @@ $(window).load(function () {
   }, 500);
 });
 
-$(document).ready(function(){
-	$('.contact-click').click(function(){
-    $('.footer-item').addClass('footer-item-event');
-    setTimeout(function(){
-      $('.footer-item').removeClass('footer-item-event');
-    },500);
-  });
-
-  $('#fullpage').fullpage({
-		//options here
-		autoScrolling:true,
-		scrollHorizontally: true
-	});
-});
-
 window.onload = function () {
   AOS.init();
 
@@ -565,6 +550,17 @@ window.onload = function () {
   });
 };
 
+$(document).ready(function () {
+  $(".contact-click").click(function () {
+    $(".footer-item").addClass("footer-item-event");
+    setTimeout(function () {
+      $(".footer-item").removeClass("footer-item-event");
+    }, 350);
+  });
 
-
-
+  // $("#fullpage").fullpage({
+  //   //options here
+  //   autoScrolling: true,
+  //   scrollHorizontally: true,
+  // });
+});
