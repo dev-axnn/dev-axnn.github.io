@@ -693,6 +693,7 @@ body::-webkit-scrollbar-thumb {
 
 .chart-txt p {
   font-size: 14px;
+  text-align: justify;
 }
 
 .chart-txt b {
@@ -1159,6 +1160,7 @@ body::-webkit-scrollbar-thumb {
 
 .branding-txt p {
   font-size: 16px;
+  text-align: justify;
 }
 
 .branding-txt p b {
