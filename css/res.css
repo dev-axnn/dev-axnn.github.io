@@ -314,33 +314,25 @@
   }
 }
 
-@media screen and (max-width: 1275px) {
-  .myprofile .myprofile-intro-txt {
-    font-size: 13px;
-    line-height: 21px;
-  }
-}
-
 @media screen and (max-width: 1330px) {
   .myprofile .myprofile-intro-txt {
-    margin: 15px 0;
-    font-size: 12.8px;
-    line-height: 24px;
+    font-size: 13.5px;
+    line-height: 22px;
   }
 }
-
-@media screen and (max-width: 1330px) {
-  .myprofile .myprofile-intro-txt {
-    font-size: 13px;
-    line-height: 21px;
-  }
-}
-
+/* 
 @media screen and (max-width: 1300px) {
   .myprofile .myprofile-intro-txt {
     margin: 15px 0;
     font-size: 12.8px;
     line-height: 20px;
+  }
+} */
+
+@media screen and (max-width: 1280px) {
+  .myprofile .myprofile-intro-txt {
+    font-size: 13px;
+    line-height: 21px;
   }
 }
 
