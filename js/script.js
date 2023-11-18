@@ -466,15 +466,15 @@ window.onload = function () {
 
   let bar_html = makeCircle(pro1, "#ff7200", "0.95");
   let bar_css = makeCircle(pro2, "#2196f3", "0.90");
-  let bar_js = makeCircle(pro3, "#ffd800", "0.60");
-  let bar_jq = makeCircle(pro4, "#aaa", "0.78");
-  let bar_vue = makeCircle(pro5, "#20dd88", "0.50");
+  let bar_js = makeCircle(pro3, "#ffd800", "0.50");
+  let bar_jq = makeCircle(pro4, "#aaa", "0.65");
+  let bar_vue = makeCircle(pro5, "#20dd88", "0.30");
   let bar_scss = makeCircle(pro6, "#ff62b1", "0.70");
-  let bar_figma = makeCircle(pro7, "#62f1ff", "0.85");
-  let bar_git = makeCircle(pro8, "#fff", "0.70");
-  let bar_photo = makeCircle(pro9, "#00a9ff", "0.92");
-  let bar_illust = makeCircle(pro10, "#ff9a00", "0.95");
-  let bar_indesign = makeCircle(pro11, "#fd3365", "0.90");
+  let bar_figma = makeCircle(pro7, "#62f1ff", "0.95");
+  let bar_git = makeCircle(pro8, "#fff", "0.65");
+  let bar_photo = makeCircle(pro9, "#00a9ff", "0.98");
+  let bar_illust = makeCircle(pro10, "#ff9a00", "0.98");
+  let bar_indesign = makeCircle(pro11, "#fd3365", "0.98");
 
   new Swiper(".skill-sw", {
     slidesPerView: 4,

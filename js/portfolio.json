@@ -200,17 +200,17 @@
     "api" : true
   },
   {
-    "title": "🎨 모바일 다이어리 어플 기획안",
-    "image": "mockup-figma-diary.png",
-    "day": "4",
+    "title": "싸일렌더 믹서기 상세페이지",
+    "image": "iMac-detailed-1.png",
+    "day": "3",
     "originlink": "#",
     "pc": false,
     "mb": false,
     "figma": true,
-    "desc": "일상과 일정을 기록하고 목표 달성을 위한 동기부여를 책임지는 개인 다이어리 어플을 기획했습니다.",
+    "desc": "모터의 파워와 시원한 절삭력이 장점인 믹서기 제품을 효과적으로 광고할 수 있도록 작업한 상세페이지 디자인입니다.",
 
     "web": false,
-    "weblink": "https://www.figma.com/file/1jEajHJXYIbgTupietW88i/Ahn-Diary?node-id=0%3A1",
+    "weblink": "https://dev-axnn.github.io/detailed-silender/",
     "webgit": "#",
 
     "vue": false,
@@ -220,17 +220,17 @@
     "api" : false
   },
   {
-    "title": "🎨 포트폴리오 웹사이트 기획안",
-    "image": "mockup-figma-port.png",
-    "day": "19",
+    "title": "로맨티크 속눈썹 고데기 상세페이지",
+    "image": "iMac-detailed-2.png",
+    "day": "2",
     "originlink": "#",
     "pc": false,
     "mb": false,
     "figma": true,
-    "desc": "기술과 경력, 취미 등 제가 걸어온 수년간의 발자취를 모두 모아 누가 보아도 근사한 포트폴리오를 목표로 했습니다.",
+    "desc": "미용관련 제품을 다룬 상세페이지입니다. 디자인을 통해 해당 아이템의 매력을 업그레이드 시킬 수 있도록 고민하고 작업한 상세페이지 디자인입니다.",
 
     "web": false,
-    "weblink": "https://www.figma.com/file/WQhJTjUYn066RS90IZz6h0/Ahn-portfolio?node-id=0%3A1",
+    "weblink": "https://dev-axnn.github.io/detailed-romanticue/",
     "webgit": "#",
 
     "vue": false,
@@ -240,17 +240,77 @@
     "api" : false
   },
   {
-    "title": "🎨 독서모임어플 '책무리' 기획안",
-    "image": "mockup-figma-book.png",
-    "day": "(작업중) 0",
+    "title": "블루픽 구강세정기 상세페이지",
+    "image": "iMac-detailed-3.png",
+    "day": "3",
     "originlink": "#",
     "pc": false,
     "mb": false,
     "figma": true,
-    "desc": "(작업중) 개발자 토이프로젝트 사이트를 보며 제가 사용하면 재밌을것 같은 어플을 디자인해보았습니다.",
+    "desc": "구강세척기 제품을 다룬 상세페이지입니다. 디자인을 통해 해당 아이템의 매력을 업그레이드 시킬 수 있도록 고민하고 작업한 상세페이지 디자인입니다.",
 
     "web": false,
-    "weblink": "https://www.figma.com/file/mQRRON8v4RcvyRQ8Qill1Z/Untitled?node-id=0%3A1",
+    "weblink": "https://dev-axnn.github.io/detailed-bluepick/",
+    "webgit": "#",
+
+    "vue": false,
+    "vuelink": "#",
+    "vuegit": "#",
+
+    "api" : false
+  },
+  {
+    "title": "포충기 상세페이지",
+    "image": "iMac-detailed-4.png",
+    "day": "2",
+    "originlink": "#",
+    "pc": false,
+    "mb": false,
+    "figma": true,
+    "desc": "포충기 제품의 특성을 살려 효과적으로 광고될 수 있도록 작업한 상세페이지 디자인입니다.",
+
+    "web": false,
+    "weblink": "https://dev-axnn.github.io/detailed-insectrepellent/",
+    "webgit": "#",
+
+    "vue": false,
+    "vuelink": "#",
+    "vuegit": "#",
+
+    "api" : false
+  },
+  {
+    "title": "냉방기 상세페이지",
+    "image": "iMac-detailed-5.png",
+    "day": "1",
+    "originlink": "#",
+    "pc": false,
+    "mb": false,
+    "figma": true,
+    "desc": "여름철 필수품인 냉방기 제품의 특성을 살려 효과적으로 광고할 수 있도록 작업한 상세페이지 디자인입니다.",
+
+    "web": false,
+    "weblink": "https://dev-axnn.github.io/detailed-aircooler/",
+    "webgit": "#",
+
+    "vue": false,
+    "vuelink": "#",
+    "vuegit": "#",
+
+    "api" : false
+  },
+  {
+    "title": "에어프라이어 상세페이지",
+    "image": "iMac-detailed-6.png",
+    "day": "2",
+    "originlink": "#",
+    "pc": false,
+    "mb": false,
+    "figma": true,
+    "desc": "에어프라이어 가전을 다룬 상세페이지입니다. 디자인을 통해 해당 아이템의 매력을 업그레이드 시킬 수 있도록 고민하고 작업한 상세페이지 디자인입니다.",
+
+    "web": false,
+    "weblink": "https://dev-axnn.github.io/detailed-airfryer/",
     "webgit": "#",
 
     "vue": false,
