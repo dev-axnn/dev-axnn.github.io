@@ -143,7 +143,7 @@ window.onload = function () {
   let portSwSlide;
   let portCate;
 
-  fetch("./js/portfolio.json")
+  fetch("/js/portfolio.json")
     .then((res) => res.json())
     .then((data) => {
       allPortfolioData = data;
@@ -167,7 +167,7 @@ window.onload = function () {
             <div class="port-link">
               <a href="${
                 item.weblink
-              }" target="_blank" class="preview" style="background: url('././images/${
+              }" target="_blank" class="preview" style="background: url('../images/${
               item.image
               }') no-repeat center top; background-size: 100%; transition: all 0.5s;"></a>
                 <h5>${item.title}</h5>
@@ -200,7 +200,7 @@ window.onload = function () {
           <div class="port-link">
             <a href="${
               item.weblink
-            }" target="_blank"  class="preview" style="background: url('././images/${
+            }" target="_blank"  class="preview" style="background: url('../images/${
               item.image
             }') no-repeat center top; background-size: 100%; transition: all 0.5s;"></a>
             <h5>${item.title}</h5>
@@ -231,7 +231,7 @@ window.onload = function () {
           let tempHtml = `
           <div class="figma-item swiper-slide">
             <a href="${item.weblink}" target="_blank" class="port-link">link</a>
-            <a href="${item.weblink}" target="_blank" class="preview" style="background: url('././images/${item.image}') no-repeat center 20%; background-size: 100%; transition: all 0.5s;"></a>
+            <a href="${item.weblink}" target="_blank" class="preview" style="background: url('../images/${item.image}') no-repeat center 20%; background-size: 100%; transition: all 0.5s;"></a>
             <h5>${item.title}</h5>
             <p><span></span>작업기간 : ${item.day}일</p>
             <p class="figma-desc">${item.desc}</p>
@@ -251,7 +251,7 @@ window.onload = function () {
             <div class="port-link">
               <a href="${
                 item.weblink
-              }" target="_blank"  class="preview" style="background: url('././images/${
+              }" target="_blank"  class="preview" style="background: url('../images/${
               item.image
               }') no-repeat center top; background-size: 100%; transition: all 0.5s;"></a>
                 <h5>${item.title}</h5>
