@@ -17,7 +17,12 @@
     "vuelink": "#",
     "vuegit": "#",
 
-    "api" : false
+    "api" : false,
+    "images": [
+    "portfolio01_01.png",
+    "portfolio01_02.png",
+    "portfolio01_03.gif"
+    ]
   },
   {
     "title": "더피커 클론코딩",
@@ -77,7 +82,13 @@
     "vuelink": "#",
     "vuegit": "#",
 
-    "api" : false
+    "api" : false,
+    "images": [
+      "portfolio02_01.png",
+      "portfolio02_02.png",
+      "portfolio02_03.png",
+      "portfolio02_04.png"
+    ]
   },
   {
     "title": "K-water 클론코딩",
