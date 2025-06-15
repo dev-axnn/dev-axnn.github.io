@@ -10,12 +10,14 @@ $(window).load(function () {
   //페이지가 로드 되면 로딩 화면을 없애주는 것
   let hideLoading = () => {
     $("#loading").fadeOut(500);
-    $("html").css("overflowY", "auto");
+    //$("html").css("overflowY", "auto");
   };
   setTimeout(function () {
     hideLoading();
   }, 500);
 });
+
+let allPortfolioData = [];
 
 window.onload = function () {
   AOS.init();
@@ -135,14 +137,13 @@ window.onload = function () {
   });
 
   // 포트폴리오 데이터 호출
-  let allPortfolioData = [];
   let portSw = $(".port-sw");
   let portSwWrapper = portSw.find(".swiper-wrapper");
   let portHtml = "";
   let portSwSlide;
   let portCate;
 
-  fetch("/js/portfolio.json")
+  fetch("./js/portfolio.json")
     .then((res) => res.json())
     .then((data) => {
       allPortfolioData = data;
@@ -162,40 +163,27 @@ window.onload = function () {
       allPortfolioData.forEach(function (item, index) {
         if (item.mb) {
           let tempHtml = `
-          <div class="port-cate-item swiper-slide">
-            <a href="${item.weblink}" target="_blank" class="port-link">link</a>
-            <a href="${
-              item.weblink
-            }" target="_blank" class="preview" style="background: url('../images/${
-            item.image
-          }') no-repeat center top; background-size: 100%; transition: all 0.5s;"></a>
-            <h5>${item.title}</h5>
-            <p><span></span>작업기간 : ${item.day}일</p>
-            <div class="port-btn">
+          <div class="port-cate-item swiper-slide" data-index="${index}">
+            <div class="port-link">
               <a href="${
                 item.weblink
-              }" target="_blank" class="port-btn-reqular" style="color: #fff; background: #242A53;">WORK</a>
-              <a href="${
-                item.webgit
-              }" target="_blank" class="port-btn-reqular" style="color: #fff; background: #242A53;">GitHub</a>
-              <a href="${
-                item.originlink
-              }" target="_blank" class="port-btn-reqular" style="color: #fff; background: #242A53;">Origin</a>
-              <br/>
-              <a href="${item.vuelink}" target="_blank" class="port-btn-vue" ${
-            item.vue
-              ? 'style="color: #444; background: #eee;"'
-              : 'style="display:none"'
-          }>VUE.js WORK</a>
-              <a href="${item.vuegit}" target="_blank" class="port-btn-vue" ${
-            item.vue
-              ? 'style="color: #444; background: #eee;"'
-              : 'style="display:none"'
-          }>VUE.js GitHub</a> 
-            </div>
-            <div class="port-mark">
-              ${item.pc ? '<span class="port-mark-web">Web</span>' : ""}
-              ${item.mb ? '<span class="port-mark-mob">Mobile</span>' : ""}
+              }" target="_blank" class="preview" style="background: url('././images/${
+              item.image
+              }') no-repeat center top; background-size: 100%; transition: all 0.5s;"></a>
+                <h5>${item.title}</h5>
+                <p><span></span>작업기간 : ${item.day}일</p>
+              <div class="port-btn">
+                <a href="${
+                  item.weblink
+                }" target="_blank" class="port-btn-reqular" style="color: #fff; background: #242A53;">Detail Page Design</a>
+                <a href="${
+                  item.webgit
+                }" target="_blank" class="port-btn-reqular" style="color: #fff; background: #242A53;">Website Design</a>
+              </div>
+              <div class="port-mark">
+                ${item.pc ? '<span class="port-mark-web">Web</span>' : ""}
+                ${item.mb ? '<span class="port-mark-mob">Mobile</span>' : ""}
+              </div>
             </div>
           </div>
           `;
@@ -208,40 +196,27 @@ window.onload = function () {
       allPortfolioData.forEach(function (item, index) {
         if (item.vue) {
           let tempHtml = `
-        <div class="port-cate-item swiper-slide">
-          <a href="${item.weblink}" target="_blank" class="port-link">link</a>
-          <a href="${
-            item.weblink
-          }" target="_blank"  class="preview" style="background: url('../images/${
-            item.image
-          }') no-repeat center top; background-size: 100%; transition: all 0.5s;"></a>
-          <h5>${item.title}</h5>
-          <p><span></span>작업기간 : ${item.day}일</p>
-          <div class="port-btn">
-          <a href="${
-            item.weblink
-          }" target="_blank" class="port-btn-reqular" style="color: #fff; background: #242A53;">WORK</a>
-          <a href="${
-            item.webgit
-          }" target="_blank" class="port-btn-reqular" style="color: #fff; background: #242A53;">GitHub</a>
-          <a href="${
-            item.originlink
-          }" target="_blank" class="port-btn-reqular" style="color: #fff; background: #242A53;">Origin</a>
-          <br/>
-          <a href="${item.vuelink}" target="_blank" class="port-btn-vue" ${
-            item.vue
-              ? 'style="color: #444; background: #eee;"'
-              : 'style="display:none"'
-          }>VUE.js WORK</a>
-          <a href="${item.vuegit}" target="_blank" class="port-btn-vue" ${
-            item.vue
-              ? 'style="color: #444; background: #eee;"'
-              : 'style="display:none"'
-          }>VUE.js GitHub</a> 
-          </div>
-          <div class="port-mark">
-            ${item.pc ? '<span class="port-mark-web">Web</span>' : ""}
-            ${item.mb ? '<span class="port-mark-mob">Mobile</span>' : ""}
+        <div class="port-cate-item swiper-slide" data-index="${index}">
+          <div class="port-link">
+            <a href="${
+              item.weblink
+            }" target="_blank"  class="preview" style="background: url('././images/${
+              item.image
+            }') no-repeat center top; background-size: 100%; transition: all 0.5s;"></a>
+            <h5>${item.title}</h5>
+            <p><span></span>작업기간 : ${item.day}일</p>
+            <div class="port-btn">
+              <a href="${
+                item.weblink
+              }" target="_blank" class="port-btn-reqular" style="color: #fff; background: #242A53;">Detail Page Design</a>
+              <a href="${
+                item.webgit
+              }" target="_blank" class="port-btn-reqular" style="color: #fff; background: #242A53;">Website Design</a>
+            </div>
+            <div class="port-mark">
+              ${item.pc ? '<span class="port-mark-web">Web</span>' : ""}
+              ${item.mb ? '<span class="port-mark-mob">Mobile</span>' : ""}
+            </div>
           </div>
         </div>
         `;
@@ -256,7 +231,7 @@ window.onload = function () {
           let tempHtml = `
           <div class="figma-item swiper-slide">
             <a href="${item.weblink}" target="_blank" class="port-link">link</a>
-            <a href="${item.weblink}" target="_blank" class="preview" style="background: url('../images/${item.image}') no-repeat center 20%; background-size: 100%; transition: all 0.5s;"></a>
+            <a href="${item.weblink}" target="_blank" class="preview" style="background: url('././images/${item.image}') no-repeat center 20%; background-size: 100%; transition: all 0.5s;"></a>
             <h5>${item.title}</h5>
             <p><span></span>작업기간 : ${item.day}일</p>
             <p class="figma-desc">${item.desc}</p>
@@ -272,40 +247,27 @@ window.onload = function () {
       allPortfolioData.forEach(function (item, index) {
         if (item.pc) {
           let tempHtml = `
-          <div class="port-cate-item swiper-slide">
-            <a href="${item.weblink}" target="_blank" class="port-link">link</a>
-            <a href="${
-              item.weblink
-            }" target="_blank"  class="preview" style="background: url('../images/${
-            item.image
-          }') no-repeat center top; background-size: 100%; transition: all 0.5s;"></a>
-            <h5>${item.title}</h5>
-            <p><span></span>작업기간 : ${item.day}일</p>
-            <div class="port-btn">
-            <a href="${
-              item.weblink
-            }" target="_blank" class="port-btn-reqular" style="color: #fff; background: #242A53;">WORK</a>
-            <a href="${
-              item.webgit
-            }" target="_blank" class="port-btn-reqular" style="color: #fff; background: #242A53;">GitHub</a>
-            <a href="${
-              item.originlink
-            }" target="_blank" class="port-btn-reqular" style="color: #fff; background: #242A53;">Origin</a>
-            <br/>
-            <a href="${item.vuelink}" target="_blank" class="port-btn-vue" ${
-            item.vue
-              ? 'style="color: #444; background: #eee;"'
-              : 'style="display:none"'
-          }>VUE.js WORK</a>
-            <a href="${item.vuegit}" target="_blank" class="port-btn-vue" ${
-            item.vue
-              ? 'style="color: #444; background: #eee;"'
-              : 'style="display:none"'
-          }>VUE.js GitHub</a>
-            </div>
-            <div class="port-mark">
-              ${item.pc ? '<span class="port-mark-web">Web</span>' : ""}
-              ${item.mb ? '<span class="port-mark-mob">Mobile</span>' : ""}
+          <div class="port-cate-item swiper-slide" data-index="${index}">
+            <div class="port-link">
+              <a href="${
+                item.weblink
+              }" target="_blank"  class="preview" style="background: url('././images/${
+              item.image
+              }') no-repeat center top; background-size: 100%; transition: all 0.5s;"></a>
+                <h5>${item.title}</h5>
+              <p><span></span>작업기간 : ${item.day}일</p>
+              <div class="port-btn">
+                <a href="${
+                item.weblink
+                }" target="_blank" class="port-btn-reqular" style="color: #fff; background: #242A53;">Detail Page Design</a>
+                <a href="${
+                  item.webgit
+                }" target="_blank" class="port-btn-reqular" style="color: #fff; background: #242A53;">Website Design</a>
+              </div>
+              <div class="port-mark">
+                ${item.pc ? '<span class="port-mark-web">Web</span>' : ""}
+                ${item.mb ? '<span class="port-mark-mob">Mobile</span>' : ""}
+              </div>
             </div>
           </div>
           `;
@@ -671,4 +633,48 @@ $(document).ready(function () {
   //   $("html").css("overflow", "hidden");
   //   wheelDefense = false;
   // }
+});
+
+
+
+
+// 포트폴리오 썸네일 클릭 시 팝업 오픈
+$(document).on("click", ".port-link", function (e) {
+  e.preventDefault();
+
+  const index = $(this).closest(".port-cate-item").data("index");
+  const item = allPortfolioData[index];
+
+  if (!item || !item.images || item.images.length === 0) {
+    openPortfolioPopup(null);
+    return;
+  }
+
+  openPortfolioPopup(item.images);
+});
+
+function openPortfolioPopup(imageList) {
+  const popup = $("#portfolio-popup");
+  const inner = popup.find("ul");
+  inner.html(""); // 초기화
+
+  if (!imageList || imageList.length === 0) {
+    inner.append(`<li><p>이미지가 없습니다.</p></li>`);
+  } else {
+    imageList.forEach(function (imgName) {
+      const imgSrc = `./images/${imgName}`;
+      inner.append(`<li><img src="${imgSrc}" alt=""></li>`);
+    });
+  }
+
+  $("html, body").addClass("expand");
+  $(".dim_bg").fadeIn();
+  popup.fadeIn();
+}
+
+$(document).on("click", ".dim_bg", function () {
+  $("#portfolio-popup").fadeOut();
+  $(".dim_bg").fadeOut();
+  $("html, body").removeClass("expand");
+  $(window).scrollTop(scrollPosition);
 });

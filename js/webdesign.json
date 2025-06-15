@@ -1,0 +1,20 @@
+[
+  {
+    "title": "대구 근대골목 단팥빵 클론코딩",
+    "image": "mockup-daegubbang.png",
+    "day": "12",
+    "originlink": "https://daegubbang.co.kr/",
+    "category": "detailed",
+    "detailed": true,
+    "uiux": false
+  },
+  {
+    "title": "더피커 클론코딩",
+    "image": "mockup-thepicker.png",
+    "day": "14",
+    "originlink": "https://thepicker.net/",
+    "category": "uiux",
+    "detailed": false,
+    "uiux": true
+  }
+]

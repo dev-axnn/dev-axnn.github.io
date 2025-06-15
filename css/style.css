@@ -768,6 +768,195 @@ body::-webkit-scrollbar-thumb {
   margin-right: 5px;
 }
 
+/* Web Design */
+.webdesign {
+  position: relative;
+  display: block;
+}
+
+.webdesign .inner {
+  height: 1100px;
+}
+
+.webdesign-menu li {
+  float: left;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.webdesign-menu li:hover a {
+  color: #242a53;
+}
+
+.webdesign-menu-active {
+  color: #242a53 !important;
+}
+
+.webdesign-mb-menu {
+  width: 100%;
+  border: none;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 50px;
+  color: #838c9d;
+  background: #eee;
+  display: none;
+}
+
+.webdesign-mb-menu option {
+  border: none;
+  padding: 5px 0;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: "Noto Sans", sans-serif;
+  color: #838c9d;
+}
+
+.webdesign-sw {
+  width: 1100px;
+  margin: 60px auto;
+  overflow: hidden;
+}
+
+.webdesign-cate-item {
+  position: relative;
+}
+
+
+.webdesign-link {
+  display: none;
+}
+
+.web-preview {
+  display: block;
+  width: 100%;
+  height: 550px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.webdesign-cate-item:hover .webdesign-preview {
+  background-size: 107% !important;
+  background-position: 50% 35% !important;
+}
+
+.webdesign-cate-item:hover .webdesign-preview::before {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.webdesign-cate-item:hover .webdesign-link {
+  top: 35%;
+  width: 70px;
+  height: 70px;
+}
+
+.webdesign-cate-item h5 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  font-size: 19px;
+  font-weight: 600;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.webdesign-cate-item:hover h5 {
+  color: #2d498f;
+}
+
+.webdesign-cate-item p {
+  font-size: 16px;
+  margin-left: 5px;
+  margin-bottom: 25px;
+}
+
+.webdesign-cate-item p span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: url("../images/icon-clock.png") no-repeat center;
+  background-size: contain;
+  margin-right: 5px;
+}
+
+.webdesign-btn {;
+  width: auto;
+  margin: 0 auto;
+}
+
+.webdesign-btn span {
+  display: inline-block;
+  width: fit-content;
+  height: 30px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 30px;
+  background: #242A53;
+  padding: 0 5%;
+  margin-right: 3px;
+  transition: transform 0.3s;
+}
+
+.webdesign-btn-r:last-child {
+  margin-right: 0;
+}
+
+.webdesign-btn a:hover {
+  transform: scale(0.95);
+}
+
+.webdesign-btn-prev {
+  position: absolute;
+  left: 0;
+  bottom: 35%;
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.webdesign-btn-next {
+  position: absolute;
+  right: 0;
+  bottom: 35%;
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.webdesign-btn-prev:hover {
+  opacity: 1;
+}
+
+.webdesign-btn-next:hover {
+  opacity: 1;
+}
+
+.webdesign-pagination {
+  position: absolute;
+  width: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 40px;
+}
+
+.webdesign-pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #333;
+  border-radius: 5px;
+  margin-right: 8px;
+}
+
+.webdesign-pagination .swiper-pagination-bullet-active {
+  background: #242a53;
+}
+
 /* PORTFOLIO */
 .portfolio {
   position: relative;
@@ -938,7 +1127,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .port-btn a:hover {
-  transform: scale(0.9);
+  transform: scale(0.95);
 }
 
 .port-mark {
