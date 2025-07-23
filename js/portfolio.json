@@ -1,17 +1,16 @@
 [
   {
-    "title": "대구 근대골목 단팥빵 클론코딩",
-    "image": "mockup-daegubbang.png",
-    "day": "12",
-    "originlink": "https://daegubbang.co.kr/",
+    "title": "[연향] 간편식품 상세페이지",
+    "image": "webdesign/portfolio01.png",
+    "day": "3",
     "pc": true,
     "mb": true,
     "figma": false,
     "desc": "",
 
     "web": true,
-    "weblink": "https://dev-axnn.github.io/daegubbang/",
-    "webgit": "https://github.com/dev-axnn/daegubbang.git",
+    "weblink": "show",
+    "webgit": "hide",
 
     "vue": false,
     "vuelink": "#",
@@ -19,64 +18,33 @@
 
     "api" : false,
     "images": [
-    "portfolio01_01.png",
-    "portfolio01_02.png",
-    "portfolio01_03.gif"
+    "webdesign/portfolio01_01.png",
+    "webdesign/portfolio01_02.png",
+    "webdesign/portfolio01_03.gif",
+    "webdesign/portfolio01_04.png",
+    "webdesign/portfolio01_05.png",
+    "webdesign/portfolio01_06.png",
+    "webdesign/portfolio01_07.png",
+    "webdesign/portfolio01_08.png",
+    "webdesign/portfolio01_09.png",
+    "webdesign/portfolio01_10.png",
+    "webdesign/portfolio01_11.png",
+    "webdesign/portfolio01_12.png",
+    "webdesign/portfolio01_13.png"
     ]
   },
   {
-    "title": "더피커 클론코딩",
-    "image": "mockup-thepicker.png",
-    "day": "14",
-    "originlink": "https://thepicker.net/",
+    "title": "[하이소] 뷰티 상세페이지",
+    "image": "webdesign/portfolio02.png",
+    "day": "3",
     "pc": true,
     "mb": true,
     "figma": false,
     "desc": "",
 
     "web": true,
-    "weblink": "https://dev-axnn.github.io/thepicker/",
-    "webgit": "https://github.com/dev-axnn/thepicker.git",
-
-    "vue": false,
-    "vuelink": "#",
-    "vuegit": "#",
-
-    "api" : false
-  },
-  {
-    "title": "정육각 클론코딩",
-    "image": "mockup-jungyookgak.png",
-    "day": "12",
-    "originlink": "https://www.jeongyookgak.com/",
-    "pc": true,
-    "mb": true,
-    "figma": false,
-    "desc": "",
-
-    "web": true,
-    "weblink": "https://dev-axnn.github.io/jeongyookgak/",
-    "webgit": "https://github.com/dev-axnn/jeongyookgak.git",
-
-    "vue": true,
-    "vuelink": "#",
-    "vuegit": "https://github.com/dev-axnn/vue-jeongyookgak.git",
-
-    "api" : false
-  },
-  {
-    "title": "카페 바라보다 클론코딩",
-    "image": "mockup-baraboda.png",
-    "day": "11",
-    "originlink": "http://baraboda.com/",
-    "pc": true,
-    "mb": true,
-    "figma": false,
-    "desc": "",
-
-    "web": true,
-    "weblink": "https://dev-axnn.github.io/baraboda/",
-    "webgit": "https://github.com/dev-axnn/baraboda.git",
+    "weblink": "show",
+    "webgit": "hide",
 
     "vue": false,
     "vuelink": "#",
@@ -84,250 +52,258 @@
 
     "api" : false,
     "images": [
-      "portfolio02_01.png",
-      "portfolio02_02.png",
-      "portfolio02_03.png",
-      "portfolio02_04.png"
+    "webdesign/portfolio02_01.png",
+    "webdesign/portfolio02_02.png",
+    "webdesign/portfolio02_03.png",
+    "webdesign/portfolio02_04.gif",
+    "webdesign/portfolio02_05.png",
+    "webdesign/portfolio02_06.png",
+    "webdesign/portfolio02_07.png",
+    "webdesign/portfolio02_08.png",
+    "webdesign/portfolio02_09.png",
+    "webdesign/portfolio02_10.png",
+    "webdesign/portfolio02_11.png",
+    "webdesign/portfolio02_12.png",
+    "webdesign/portfolio02_13.png"
     ]
   },
   {
-    "title": "K-water 클론코딩",
-    "image": "mockup-kwater.png",
-    "day": "23",
-    "originlink": "https://www.kwater.or.kr/",
-    "pc": true,
-    "mb": true,
-    "figma": false,
-    "desc": "",
-
-    "web": true,
-    "weblink": "https://dev-axnn.github.io/kwater/",
-    "webgit": "https://github.com/dev-axnn/kwater.git",
-
-    "vue": false,
-    "vuelink": "#",
-    "vuegit": "#",
-
-    "api" : false
-  },
-  {
-    "title": "거제청년센터 이룸 클론코딩",
-    "image": "mockup-geojeyouth.png",
-    "day": "21",
-    "originlink": "https://daegubbang.co.kr/",
-    "pc": true,
-    "mb": true,
-    "figma": false,
-    "desc": "",
-
-    "web": true,
-    "weblink": "https://dev-axnn.github.io/geojeyouth/",
-    "webgit": "https://github.com/dev-axnn/geojeyouth.git",
-
-    "vue": true,
-    "vuelink": "https://dev-axnn.github.io/build-geoje/",
-    "vuegit": "https://github.com/dev-axnn/vue-geoje.git",
-
-    "api" : false
-  },
-  {
-    "title": "마시그래이 클론코딩",
-    "image": "mockup-masigray.png",
-    "day": "15",
-    "originlink": "https://www.masigray.com/",
-    "pc": true,
-    "mb": true,
-    "figma": false,
-    "desc": "",
-
-    "web": true,
-    "weblink": "https://dev-axnn.github.io/masigray/",
-    "webgit": "https://github.com/dev-axnn/masigray.git",
-
-    "vue": true,
-    "vuelink": "https://dev-axnn.github.io/build-masigray/",
-    "vuegit": "https://github.com/dev-axnn/vue-masigray.git",
-
-    "api" : false
-  },
-  {
-    "title": "노엘로힐스 클론코딩",
-    "image": "mockup-noelo.png",
-    "day": "12",
-    "originlink": "https://noelohills.com/",
-    "pc": true,
-    "mb": true,
-    "figma": false,
-    "desc": "",
-
-    "web": true,
-    "weblink": "https://dev-axnn.github.io/noelohills/",
-    "webgit": "https://github.com/dev-axnn/noelohills.git",
-
-    "vue": true,
-    "vuelink": "https://dev-axnn.github.io/build-noelohills/",
-    "vuegit": "https://github.com/dev-axnn/vue-noelohills.git",
-
-    "api" : false
-  },
-  {
-    "title": "STX건설",
-    "image": "mockup-stx.png",
-    "day": "9",
-    "originlink": "http://www.stxconst.co.kr/",
-    "pc": true,
-    "mb": false,
-    "figma": false,
-    "desc": "",
-
-    "web": true,
-    "weblink": "https://dev-axnn.github.io/stxconst/",
-    "webgit": "https://github.com/dev-axnn/stxconst.git",
-
-    "vue": true,
-    "vuelink": "https://dev-axnn.github.io/build-stx/",
-    "vuegit": "https://github.com/dev-axnn/vue-stx.git",
-
-    "api" : false
-  },
-  {
-    "title": "Ghibli Open API를 이용한 어플",
-    "image": "mockup-ghibli.png",
-    "day": "8",
-    "originlink": "#",
-    "pc": true,
-    "mb": false,
-    "figma": false,
-    "desc": "",
-
-    "web": true,
-    "weblink": "https://dev-axnn.github.io/build-ghibli/",
-    "webgit": "https://github.com/dev-axnn/vue-ghibli.git",
-
-    "vue": true,
-    "vuelink": "https://dev-axnn.github.io/build-ghibli/",
-    "vuegit": "https://github.com/dev-axnn/vue-ghibli.git",
-
-    "api" : true
-  },
-  {
-    "title": "싸일렌더 믹서기 상세페이지",
-    "image": "iMac-detailed-1.png",
+    "title": "[프리니] 간편식품 상세페이지",
+    "image": "webdesign/portfolio03.png",
     "day": "3",
-    "originlink": "#",
-    "pc": false,
-    "mb": false,
-    "figma": true,
-    "desc": "모터의 파워와 시원한 절삭력이 장점인 믹서기 제품을 효과적으로 광고할 수 있도록 작업한 상세페이지 디자인입니다.",
+    "pc": true,
+    "mb": true,
+    "figma": false,
+    "desc": "",
 
-    "web": false,
-    "weblink": "https://dev-axnn.github.io/detailed-silender/",
-    "webgit": "#",
-
-    "vue": false,
-    "vuelink": "#",
-    "vuegit": "#",
-
-    "api" : false
-  },
-  {
-    "title": "로맨티크 속눈썹 고데기 상세페이지",
-    "image": "iMac-detailed-2.png",
-    "day": "2",
-    "originlink": "#",
-    "pc": false,
-    "mb": false,
-    "figma": true,
-    "desc": "미용관련 제품을 다룬 상세페이지입니다. 디자인을 통해 해당 아이템의 매력을 업그레이드 시킬 수 있도록 고민하고 작업한 상세페이지 디자인입니다.",
-
-    "web": false,
-    "weblink": "https://dev-axnn.github.io/detailed-romanticue/",
-    "webgit": "#",
+    "web": true,
+    "weblink": "show",
+    "webgit": "hide",
 
     "vue": false,
     "vuelink": "#",
     "vuegit": "#",
 
-    "api" : false
+    "api" : false,
+    "images": [
+    "webdesign/portfolio03_01.png",
+    "webdesign/portfolio03_02.png",
+    "webdesign/portfolio03_03.gif",
+    "webdesign/portfolio03_04.png",
+    "webdesign/portfolio03_05.png",
+    "webdesign/portfolio03_06.png",
+    "webdesign/portfolio03_07.png",
+    "webdesign/portfolio03_08.png",
+    "webdesign/portfolio03_09.png",
+    "webdesign/portfolio03_10.png",
+    "webdesign/portfolio03_11.png",
+    "webdesign/portfolio03_12.png",
+    "webdesign/portfolio03_13.png",
+    "webdesign/portfolio03_14.png",
+    "webdesign/portfolio03_15.png",
+    "webdesign/portfolio03_16.png",
+    "webdesign/portfolio03_17.png",
+    "webdesign/portfolio03_18.png"
+    ]
   },
   {
-    "title": "블루픽 구강세정기 상세페이지",
-    "image": "iMac-detailed-3.png",
-    "day": "3",
-    "originlink": "#",
-    "pc": false,
-    "mb": false,
-    "figma": true,
-    "desc": "구강세척기 제품을 다룬 상세페이지입니다. 디자인을 통해 해당 아이템의 매력을 업그레이드 시킬 수 있도록 고민하고 작업한 상세페이지 디자인입니다.",
-
-    "web": false,
-    "weblink": "https://dev-axnn.github.io/detailed-bluepick/",
-    "webgit": "#",
-
-    "vue": false,
-    "vuelink": "#",
-    "vuegit": "#",
-
-    "api" : false
-  },
-  {
-    "title": "포충기 상세페이지",
-    "image": "iMac-detailed-4.png",
-    "day": "2",
-    "originlink": "#",
-    "pc": false,
-    "mb": false,
-    "figma": true,
-    "desc": "포충기 제품의 특성을 살려 효과적으로 광고될 수 있도록 작업한 상세페이지 디자인입니다.",
-
-    "web": false,
-    "weblink": "https://dev-axnn.github.io/detailed-insectrepellent/",
-    "webgit": "#",
-
-    "vue": false,
-    "vuelink": "#",
-    "vuegit": "#",
-
-    "api" : false
-  },
-  {
-    "title": "냉방기 상세페이지",
-    "image": "iMac-detailed-5.png",
+    "title": "[잠언헬스케어] 건강기능식품 상세페이지",
+    "image": "webdesign/portfolio04.png",
     "day": "1",
-    "originlink": "#",
-    "pc": false,
-    "mb": false,
-    "figma": true,
-    "desc": "여름철 필수품인 냉방기 제품의 특성을 살려 효과적으로 광고할 수 있도록 작업한 상세페이지 디자인입니다.",
+    "pc": true,
+    "mb": true,
+    "figma": false,
+    "desc": "",
 
-    "web": false,
-    "weblink": "https://dev-axnn.github.io/detailed-aircooler/",
-    "webgit": "#",
+    "web": true,
+    "weblink": "show",
+    "webgit": "hide",
 
     "vue": false,
     "vuelink": "#",
     "vuegit": "#",
 
-    "api" : false
-  },
-  {
-    "title": "에어프라이어 상세페이지",
-    "image": "iMac-detailed-6.png",
+    "api" : false,
+    "images": [
+    "webdesign/portfolio04_01.png",
+    "webdesign/portfolio04_02.png",
+    "webdesign/portfolio04_03.png",
+    "webdesign/portfolio04_04.gif",
+    "webdesign/portfolio04_05.png",
+    "webdesign/portfolio04_06.png",
+    "webdesign/portfolio04_07.png",
+    "webdesign/portfolio04_08.png",
+    "webdesign/portfolio04_09.png",
+    "webdesign/portfolio04_10.png",
+    "webdesign/portfolio04_11.png",
+    "webdesign/portfolio04_12.png",
+    "webdesign/portfolio04_13.png"
+    ]
+  },{
+    "title": "[미트누보] 정육 상세페이지",
+    "image": "webdesign/portfolio05.png",
+    "day": "1.5",
+    "pc": true,
+    "mb": true,
+    "figma": false,
+    "desc": "",
+
+    "web": true,
+    "weblink": "show",
+    "webgit": "hide",
+
+    "vue": false,
+    "vuelink": "#",
+    "vuegit": "#",
+
+    "api" : false,
+    "images": [
+    "webdesign/portfolio05_01.png",
+    "webdesign/portfolio05_02.png",
+    "webdesign/portfolio05_03.png",
+    "webdesign/portfolio05_04.png",
+    "webdesign/portfolio05_05.png",
+    "webdesign/portfolio05_06.png",
+    "webdesign/portfolio05_07.png",
+    "webdesign/portfolio05_08.png",
+    "webdesign/portfolio05_09.png",
+    "webdesign/portfolio05_10.png"
+    ]
+  },{
+    "title": "[제이앤와이푸드] 간편식품 상세페이지",
+    "image": "webdesign/portfolio06.png",
     "day": "2",
-    "originlink": "#",
-    "pc": false,
-    "mb": false,
-    "figma": true,
-    "desc": "에어프라이어 가전을 다룬 상세페이지입니다. 디자인을 통해 해당 아이템의 매력을 업그레이드 시킬 수 있도록 고민하고 작업한 상세페이지 디자인입니다.",
+    "pc": true,
+    "mb": true,
+    "figma": false,
+    "desc": "",
 
-    "web": false,
-    "weblink": "https://dev-axnn.github.io/detailed-airfryer/",
-    "webgit": "#",
+    "web": true,
+    "weblink": "show",
+    "webgit": "hide",
 
     "vue": false,
     "vuelink": "#",
     "vuegit": "#",
 
-    "api" : false
+    "api" : false,
+    "images": [
+    "webdesign/portfolio06_01.png",
+    "webdesign/portfolio06_02.png",
+    "webdesign/portfolio06_03.png",
+    "webdesign/portfolio06_04.gif",
+    "webdesign/portfolio06_05.png",
+    "webdesign/portfolio06_06.png",
+    "webdesign/portfolio06_07.png",
+    "webdesign/portfolio06_08.png",
+    "webdesign/portfolio06_09.gif",
+    "webdesign/portfolio06_10.png",
+    "webdesign/portfolio06_11.png",
+    "webdesign/portfolio06_12.png",
+    "webdesign/portfolio06_13.png",
+    "webdesign/portfolio06_14.png",
+    "webdesign/portfolio06_15.png"
+    ]
+  },{
+    "title": "[비엠기획] 차량용품 상세페이지",
+    "image": "webdesign/portfolio07.png",
+    "day": "1.5",
+    "pc": true,
+    "mb": true,
+    "figma": false,
+    "desc": "",
+
+    "web": true,
+    "weblink": "show",
+    "webgit": "hide",
+
+    "vue": false,
+    "vuelink": "#",
+    "vuegit": "#",
+
+    "api" : false,
+    "images": [
+    "webdesign/portfolio07_01.png",
+    "webdesign/portfolio07_02.png",
+    "webdesign/portfolio07_03.png",
+    "webdesign/portfolio07_04.png",
+    "webdesign/portfolio07_05.png",
+    "webdesign/portfolio07_06.png",
+    "webdesign/portfolio07_07.png",
+    "webdesign/portfolio07_08.png",
+    "webdesign/portfolio07_09.png",
+    "webdesign/portfolio07_10.png",
+    "webdesign/portfolio07_11.png"
+    ]
+  },{
+    "title": "[데이센트] 아로마오일 상세페이지",
+    "image": "webdesign/portfolio08.png",
+    "day": "1.5",
+    "pc": true,
+    "mb": true,
+    "figma": false,
+    "desc": "",
+
+    "web": true,
+    "weblink": "show",
+    "webgit": "hide",
+
+    "vue": false,
+    "vuelink": "#",
+    "vuegit": "#",
+
+    "api" : false,
+    "images": [
+    "webdesign/portfolio08_01.png",
+    "webdesign/portfolio08_02.png",
+    "webdesign/portfolio08_03.gif",
+    "webdesign/portfolio08_04.png",
+    "webdesign/portfolio08_05.png",
+    "webdesign/portfolio08_06.png",
+    "webdesign/portfolio08_07.png",
+    "webdesign/portfolio08_08.png",
+    "webdesign/portfolio08_09.png",
+    "webdesign/portfolio08_10.png",
+    "webdesign/portfolio08_11.png",
+    "webdesign/portfolio08_12.png",
+    "webdesign/portfolio08_13.png",
+    "webdesign/portfolio08_14.png",
+    "webdesign/portfolio08_15.png"
+    ]
+  },{
+    "title": "[시큐컴퍼니] 뷰티 상세페이지",
+    "image": "webdesign/portfolio09.png",
+    "day": "2",
+    "pc": true,
+    "mb": true,
+    "figma": false,
+    "desc": "",
+
+    "web": true,
+    "weblink": "show",
+    "webgit": "hide",
+
+    "vue": false,
+    "vuelink": "#",
+    "vuegit": "#",
+
+    "api" : false,
+    "images": [
+    "webdesign/portfolio09_01.png",
+    "webdesign/portfolio09_02.gif",
+    "webdesign/portfolio09_03.gif",
+    "webdesign/portfolio09_04.gif",
+    "webdesign/portfolio09_05.gif",
+    "webdesign/portfolio09_06.png",
+    "webdesign/portfolio09_07.png",
+    "webdesign/portfolio09_08.gif",
+    "webdesign/portfolio09_09.gif",
+    "webdesign/portfolio09_10.gif",
+    "webdesign/portfolio09_11.gif",
+    "webdesign/portfolio09_12.gif",
+    "webdesign/portfolio09_13.gif",
+    "webdesign/portfolio09_14.gif",
+    "webdesign/portfolio09_15.png"
+    ]
   }
-] 
+]

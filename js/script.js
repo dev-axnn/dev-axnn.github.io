@@ -173,12 +173,8 @@ window.onload = function () {
                 <h5>${item.title}</h5>
                 <p><span></span>작업기간 : ${item.day}일</p>
               <div class="port-btn">
-                <a href="${
-                  item.weblink
-                }" target="_blank" class="port-btn-reqular" style="color: #fff; background: #242A53;">Detail Page Design</a>
-                <a href="${
-                  item.webgit
-                }" target="_blank" class="port-btn-reqular" style="color: #fff; background: #242A53;">Website Design</a>
+                <a target="_blank" class="port-btn-reqular ${item.weblink}" style="color: #fff; background: #242A53;">Detail Page Design</a>
+                <a target="_blank" class="port-btn-reqular ${item.webgit}" style="color: #fff; background: #242A53;">Website Design</a>
               </div>
               <div class="port-mark">
                 ${item.pc ? '<span class="port-mark-web">Web</span>' : ""}
@@ -198,20 +194,12 @@ window.onload = function () {
           let tempHtml = `
         <div class="port-cate-item swiper-slide" data-index="${index}">
           <div class="port-link">
-            <a href="${
-              item.weblink
-            }" target="_blank"  class="preview" style="background: url('../images/${
-              item.image
-            }') no-repeat center top; background-size: 100%; transition: all 0.5s;"></a>
+            <a target="_blank"  class="preview" style="background: url('../images/${item.image}') no-repeat center top; background-size: 100%; transition: all 0.5s;"></a>
             <h5>${item.title}</h5>
             <p><span></span>작업기간 : ${item.day}일</p>
             <div class="port-btn">
-              <a href="${
-                item.weblink
-              }" target="_blank" class="port-btn-reqular" style="color: #fff; background: #242A53;">Detail Page Design</a>
-              <a href="${
-                item.webgit
-              }" target="_blank" class="port-btn-reqular" style="color: #fff; background: #242A53;">Website Design</a>
+              <a target="_blank" class="port-btn-reqular ${item.weblink}" style="color: #fff; background: #242A53;">Detail Page Design</a>
+              <a target="_blank" class="port-btn-reqular ${item.webgit}" style="color: #fff; background: #242A53;">Website Design</a>
             </div>
             <div class="port-mark">
               ${item.pc ? '<span class="port-mark-web">Web</span>' : ""}
@@ -257,12 +245,8 @@ window.onload = function () {
                 <h5>${item.title}</h5>
               <p><span></span>작업기간 : ${item.day}일</p>
               <div class="port-btn">
-                <a href="${
-                item.weblink
-                }" target="_blank" class="port-btn-reqular" style="color: #fff; background: #242A53;">Detail Page Design</a>
-                <a href="${
-                  item.webgit
-                }" target="_blank" class="port-btn-reqular" style="color: #fff; background: #242A53;">Website Design</a>
+                <a target="_blank" class="port-btn-reqular ${item.weblink}" style="color: #fff; background: #242A53;">Detail Page Design</a>
+                <a target="_blank" class="port-btn-reqular ${item.webgit}" style="color: #fff; background: #242A53;">Website Design</a>
               </div>
               <div class="port-mark">
                 ${item.pc ? '<span class="port-mark-web">Web</span>' : ""}
@@ -428,12 +412,12 @@ window.onload = function () {
 
   let bar_html = makeCircle(pro1, "#ff7200", "0.95");
   let bar_css = makeCircle(pro2, "#2196f3", "0.90");
-  let bar_js = makeCircle(pro3, "#ffd800", "0.50");
-  let bar_jq = makeCircle(pro4, "#aaa", "0.65");
-  let bar_vue = makeCircle(pro5, "#20dd88", "0.30");
-  let bar_scss = makeCircle(pro6, "#ff62b1", "0.70");
+  let bar_js = makeCircle(pro3, "#ffd800", "0.20");
+  let bar_jq = makeCircle(pro4, "#aaa", "0.35");
+  let bar_vue = makeCircle(pro5, "#20dd88", "0.20");
+  let bar_scss = makeCircle(pro6, "#ff62b1", "0.60");
   let bar_figma = makeCircle(pro7, "#62f1ff", "0.95");
-  let bar_git = makeCircle(pro8, "#fff", "0.65");
+  let bar_git = makeCircle(pro8, "#fff", "0.45");
   let bar_photo = makeCircle(pro9, "#00a9ff", "0.98");
   let bar_illust = makeCircle(pro10, "#ff9a00", "0.98");
   let bar_indesign = makeCircle(pro11, "#fd3365", "0.98");
